@@ -39,11 +39,11 @@ I specialize in **end-to-end genomic data analysis** from raw FASTQ files to pub
 
 <!-- ::: {align="center"} -->
 
-<center>
+<p style="text-align: center;">
 
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-</center>
+</p>
 
 <!-- ::: -->
 
@@ -106,8 +106,6 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 **Tech:** CI/CD, Snakemake, Python, Scanpy, Quarto
 
-------------------------------------------------------------------------
-
 ### 📚 [R/Pharma 2025 Workshops — Documentation Website](https://github.com/ACTN3Bioinformatics/R-Pharma-2025-Workshops)
 
 **Comprehensive Quarto knowledge portal covering R/Pharma 2025 workshops**
@@ -134,16 +132,12 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 **Impact:** Identified ZFX as biomarker for immunotherapy response\
 [![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.isci.2025.113842-blue)](https://doi.org/10.1016/j.isci.2025.113842)
 
-------------------------------------------------------------------------
-
 ### 2️⃣ **T cell-dependent bispecific therapy enhances innate immunity** \| *Cancer Immunology Research* (2024)
 
 **Bioinformatics Role:** NK cell RNA-seq (Smart-Seq V4), GSEA (fgsea), Luminex cytokine analysis\
 **Methods:** HTSeqGenie, edgeR (logCPM), limma, MSigDB (c2/c5/c7), pathway enrichment\
 **Impact:** Discovered NK cell activation mechanism in bispecific antibody therapy\
 [![DOI](https://img.shields.io/badge/DOI-10.1158%2F2326--6066.CIR--23--0800-blue)](https://doi.org/10.1158/2326-6066.CIR-23-0800)
-
-------------------------------------------------------------------------
 
 ### 3️⃣ **ERBB signalling in KRAS-driven lung cancer immune evasion** \| *bioRxiv* (2023)
 
@@ -152,8 +146,6 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 **Impact:** Multi-modal analysis revealed EGFR/ERBB-mediated immune escape\
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F2023.07.24.550274-blue)](https://doi.org/10.1101/2023.07.24.550274)
 
-------------------------------------------------------------------------
-
 ### 4️⃣ **Transcriptional subtypes resolve lung adenocarcinoma heterogeneity** \| *Clinical Cancer Research* (2021)
 
 **Bioinformatics Role:** NMF subtype discovery (\>800 patients), PAM classifier (113 genes), drug response modeling\
@@ -161,16 +153,12 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 **Impact:** Clinical classifier for MEK inhibitor response prediction \| [📊 Code](https://github.com/anneleendaemen/LUAD.subtypes)\
 [![DOI](https://img.shields.io/badge/DOI-10.1158%2F1078--0432.CCR--20--1835-blue)](https://doi.org/10.1158/1078-0432.CCR-20-1835)
 
-------------------------------------------------------------------------
-
 ### 5️⃣ **Phosphodiesterase-4 inhibition promotes CNS remyelination** \| *EMBO Molecular Medicine* (2013)
 
 **Bioinformatics Role:** Microarray analysis (Affymetrix Rat Exon 1.0ST), qRT-PCR validation, image quantification\
 **Methods:** RMA normalization, limma (moderated t-test), FDR correction, ImageJ workflows, G-ratio calculations\
 **Impact:** Identified PDE4 as therapeutic target for multiple sclerosis \| [📊 Data: GSE50042](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50042)\
 [![DOI](https://img.shields.io/badge/DOI-10.1002%2Femmm.201303123-blue)](https://doi.org/10.1002/emmm.201303123)
-
-------------------------------------------------------------------------
 
 ### 6️⃣ **+ 1 Ongoing** \| *In preparation* (2025)
 
@@ -240,7 +228,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 <!-- ::: {align="center"} -->
 
-<center>
+<p style="text-align: center;">
 
 ```         
 ### 🚀 Ready to accelerate your genomic discoveries?
@@ -258,7 +246,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 **⏰ Experience:** 8+ years in pharma/biotech \| International teams \| Multiple time zones
 ```
 
-</center>
+</p>
 
 <!-- ::: -->
 
@@ -266,7 +254,11 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 <!-- ::: {align="center"} -->
 
+<p style="text-align: center;">
+
 *`"From raw sequencing data to clinical insights - reproducible, scalable, and publication-ready."`*
+
+</p>
 
 <!-- ::: -->
 
