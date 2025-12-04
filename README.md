@@ -10,7 +10,7 @@
 
 <!-- ::: -->
 
-------------------------------------------------------------------------
+<br>
 
 # 💡 What I Do
 
@@ -218,15 +218,11 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 <!-- ::: {align="center"} -->
 
-### 🚀 Ready to accelerate your genomic discoveries?
-
 **Personal Contact:**\
 [![Email](https://img.shields.io/badge/Email-szymon.myrta%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:szymon.myrta@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/myrta/)
 
 **Company contact (ACTN3 Bioinformatics):**\
 [![Website](https://img.shields.io/badge/Website-actn3.pl-FF6B6B?style=flat&logo=google-chrome&logoColor=white)](https://www.actn3.pl) [![GitHub](https://img.shields.io/badge/GitHub-ACTN3Bioinformatics-181717?style=flat&logo=github&logoColor=white)](https://github.com/ACTN3Bioinformatics) [![Email](https://img.shields.io/badge/Email-contact%40actn3.pl-D14836?style=flat&logo=gmail&logoColor=white)](mailto:kontakt@actn3.pl)
-
-------------------------------------------------------------------------
 
 **🌍 Available for:** Remote collaborations \| Consulting \| Contract projects\
 **🗣️ Languages:** English \| Polish (Native)\
@@ -238,7 +234,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 <!-- ::: {align="center"} -->
 
-***"From raw sequencing data to clinical insights - reproducible, scalable, and publication-ready."***
+***"From raw sequencing data to clinical insights - reproducible, scalable and publication-ready."***
 
 <!-- ::: -->
 
