@@ -1,16 +1,18 @@
-# 🧬 Szymon Myrta \| Bioinformatics Expert & AI Workflows Architect
+# 🧬 Szymon Myrta
+
+# Bioinformatics Expert & AI Workflows Architect
 
 <!-- ::: {align="center"} -->
 
-<p align="center">
+<center>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/myrta/) [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-1714-6105) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:szymon.myrta@gmail.com) [![ACTN3](https://img.shields.io/badge/ACTN3_Bioinformatics-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ACTN3Bioinformatics)
 
-**🚀 8+ Years \| 6 Publications in Top-Tier Journals \| Roche/Genentech Bioinformatician**
+**🚀 8+ Years \| Publications in Top-Tier Journals \| Roche/Genentech Bioinformatician**
 
-#### *Transforming genomic data into actionable insights through reproducible pipelines and AI-powered workflows*
+### *Transforming genomic data into actionable insights through reproducible pipelines and AI-powered workflows*
 
-</p>
+</center>
 
 <!-- ::: -->
 
@@ -37,11 +39,11 @@ I specialize in **end-to-end genomic data analysis** from raw FASTQ files to pub
 
 <!-- ::: {align="center"} -->
 
-<p align="center">
+<center>
 
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-</p>
+</center>
 
 <!-- ::: -->
 
@@ -238,25 +240,25 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 <!-- ::: {align="center"} -->
 
-```         
+<center>
 
-<p align="center">
+```         
 ### 🚀 Ready to accelerate your genomic discoveries?
 
 **Personal Contact:**\
 [![Email](https://img.shields.io/badge/Email-szymon.myrta%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:szymon.myrta@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/myrta/)
 
 **Company contact (ACTN3 Bioinformatics):**\
-[![Website](https://img.shields.io/badge/Website-actn3.pl-FF6B6B?style=flat&logo=google-chrome&logoColor=white)](https://www.actn3.pl) [![GitHub](https://img.shields.io/badge/GitHub-ACTN3Bioinformatics-181717?style=flat&logo=github&logoColor=white)](https://github.com/ACTN3Bioinformatics) [![Email](https://img.shields.io/badge/Email-contact%40actn3.pl-D14836?style=flat&logo=gmail&logoColor=white)](mailto:contact@actn3.pl)
+[![Website](https://img.shields.io/badge/Website-actn3.pl-FF6B6B?style=flat&logo=google-chrome&logoColor=white)](https://www.actn3.pl) [![GitHub](https://img.shields.io/badge/GitHub-ACTN3Bioinformatics-181717?style=flat&logo=github&logoColor=white)](https://github.com/ACTN3Bioinformatics) [![Email](https://img.shields.io/badge/Email-contact%40actn3.pl-D14836?style=flat&logo=gmail&logoColor=white)](mailto:kontakt@actn3.pl)
 
 ------------------------------------------------------------------------
 
 **🌍 Available for:** Remote collaborations \| Consulting \| Contract projects\
 **🗣️ Languages:** English \| Polish (Native)\
 **⏰ Experience:** 8+ years in pharma/biotech \| International teams \| Multiple time zones
-
-</p>
 ```
+
+</center>
 
 <!-- ::: -->
 
@@ -264,7 +266,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 <!-- ::: {align="center"} -->
 
-`*"From raw sequencing data to clinical insights - reproducible, scalable, and publication-ready."*`
+*`"From raw sequencing data to clinical insights - reproducible, scalable, and publication-ready."`*
 
 <!-- ::: -->
 
