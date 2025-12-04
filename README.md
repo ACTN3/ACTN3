@@ -1,16 +1,22 @@
 # 🧬 Szymon Myrta \| Bioinformatics Expert & AI Workflows Architect
 
-::: {align="center"}
+<!-- ::: {align="center"} -->
+
+<p align="center">
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/myrta/) [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-1714-6105) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:szymon.myrta@gmail.com) [![ACTN3](https://img.shields.io/badge/ACTN3_Bioinformatics-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ACTN3Bioinformatics)
 
 **🚀 8+ Years \| 6 Publications in Top-Tier Journals \| Roche/Genentech Bioinformatician**
 
-*Transforming genomic data into actionable insights through reproducible pipelines and AI-powered workflows*
-:::
+#### *Transforming genomic data into actionable insights through reproducible pipelines and AI-powered workflows*
+
+</p>
+
+<!-- ::: -->
 
 ------------------------------------------------------------------------
 
-## 💡 What I Do
+# 💡 What I Do
 
 I specialize in **end-to-end genomic data analysis** from raw FASTQ files to publication-ready figures and clinical insights. My expertise bridges **bioinformatics, machine learning, and precision medicine**, delivering reproducible workflows that accelerate drug discovery and biomarker identification.
 
@@ -27,11 +33,17 @@ I specialize in **end-to-end genomic data analysis** from raw FASTQ files to pub
 
 ------------------------------------------------------------------------
 
-## 🛠️ Technical Stack
+# 🛠️ Technical Stack
 
-::: {align="center"}
+<!-- ::: {align="center"} -->
+
+<p align="center">
+
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-:::
+
+</p>
+
+<!-- ::: -->
 
 ### 📊 Bioinformatics Core
 
@@ -67,7 +79,7 @@ I specialize in **end-to-end genomic data analysis** from raw FASTQ files to pub
 
 ------------------------------------------------------------------------
 
-## 🏢 About ACTN3 Bioinformatics
+# 🏢 About ACTN3 Bioinformatics
 
 **Founder & Owner** \| [🔗 actn3.pl](https://www.actn3.pl) \| [💻 GitHub](https://github.com/ACTN3Bioinformatics)
 
@@ -80,7 +92,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 ------------------------------------------------------------------------
 
-## 📂 Featured Projects
+# 📂 Featured Projects
 
 ### 🧪 [VCC 2025 — scRNA-seq CRISPR Perturbation Pipeline](https://github.com/ACTN3Bioinformatics/VCC-project)
 
@@ -90,7 +102,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 -   ⚖️ Balanced control/perturbation groups for unbiased ML training
 -   📊 Automated QC reports + integrated visualizations
 
-**Tech:** Snakemake, Seurat, R/Bioconductor, Quarto
+**Tech:** CI/CD, Snakemake, Python, Scanpy, Quarto
 
 ------------------------------------------------------------------------
 
@@ -107,11 +119,11 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 ------------------------------------------------------------------------
 
-## 📚 Publications & Bioinformatics Contributions
+# 📚 Publications & Bioinformatics Contributions
 
-<details>
+<!-- <details> -->
 
-<summary><b>🔬 6 Peer-Reviewed Publications \| Click to expand methodologies</b></summary>
+<!-- <summary><b>🔬 6 Peer-Reviewed Publications \| Click to expand methodologies</b></summary> -->
 
 ### 1️⃣ **Transcription factor Zfx regulates tumor immune evasion** \| *iScience* (2025)
 
@@ -160,13 +172,13 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 ### 6️⃣ **+ 1 Ongoing** \| *In preparation* (2025)
 
-</details>
+<!-- </details> -->
 
 **Full Publication List:** [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-1714-6105)
 
 ------------------------------------------------------------------------
 
-## 🎯 What I Bring to Your Project
+# 🎯 What I Bring to Your Project
 
 ### ✅ For Biotech/Pharma Companies
 
@@ -175,13 +187,6 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 -   **Regulatory-Ready Deliverables:** ISO-compliant documentation, reproducible workflows, audit trails
 -   **Rapid Turnaround:** Established pipelines for RNA-seq (2-4 weeks), scRNA-seq (4-8 weeks), CRISPR screens (3-6 weeks)
 
-### ✅ For Academic Researchers
-
--   **Publication Support:** Methods sections, supplementary analyses, figure preparation
--   **Multi-Omics Integration:** Transcriptomics + genomics + imaging → unified insights
--   **Grant Proposals:** Preliminary data analysis, power calculations, bioinformatics plans
--   **Training:** Workshops on R/Bioconductor, reproducible research, GitHub workflows
-
 ### ✅ For Startups & CROs
 
 -   **Pipeline Development:** Snakemake/Nextflow workflows, Docker containers, HPC optimization
@@ -189,9 +194,16 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 -   **AI Integration:** Feature engineering for ML models, AI-assisted variant calling, automated QC
 -   **Scalable Infrastructure:** From proof-of-concept to production-grade pipelines
 
+### ✅ For Academic Researchers
+
+-   **Publication Support:** Methods sections, supplementary analyses, figure preparation
+-   **Multi-Omics Integration:** Transcriptomics + genomics + imaging → unified insights
+-   **Grant Proposals:** Preliminary data analysis, power calculations, bioinformatics plans
+-   **Training:** Workshops on R/Bioconductor, reproducible research, GitHub workflows
+
 ------------------------------------------------------------------------
 
-## 🌐 What Excites Me in 2025
+# 🌐 What Excites Me
 
 ``` yaml
 🤖 AI in Bioinformatics:
@@ -222,15 +234,19 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 ------------------------------------------------------------------------
 
-## 📫 Let's Collaborate
+# 📫 Let's Collaborate
 
-::: {align="center"}
+<!-- ::: {align="center"} -->
+
+```         
+
+<p align="center">
 ### 🚀 Ready to accelerate your genomic discoveries?
 
 **Personal Contact:**\
 [![Email](https://img.shields.io/badge/Email-szymon.myrta%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:szymon.myrta@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/myrta/)
 
-**Company (ACTN3 Bioinformatics):**\
+**Company contact (ACTN3 Bioinformatics):**\
 [![Website](https://img.shields.io/badge/Website-actn3.pl-FF6B6B?style=flat&logo=google-chrome&logoColor=white)](https://www.actn3.pl) [![GitHub](https://img.shields.io/badge/GitHub-ACTN3Bioinformatics-181717?style=flat&logo=github&logoColor=white)](https://github.com/ACTN3Bioinformatics) [![Email](https://img.shields.io/badge/Email-contact%40actn3.pl-D14836?style=flat&logo=gmail&logoColor=white)](mailto:contact@actn3.pl)
 
 ------------------------------------------------------------------------
@@ -238,12 +254,18 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 **🌍 Available for:** Remote collaborations \| Consulting \| Contract projects\
 **🗣️ Languages:** English \| Polish (Native)\
 **⏰ Experience:** 8+ years in pharma/biotech \| International teams \| Multiple time zones
-:::
+
+</p>
+```
+
+<!-- ::: -->
 
 ------------------------------------------------------------------------
 
-::: {align="center"}
-*"From raw sequencing data to clinical insights — reproducible, scalable, and publication-ready."*
-:::
+<!-- ::: {align="center"} -->
+
+`*"From raw sequencing data to clinical insights - reproducible, scalable, and publication-ready."*`
+
+<!-- ::: -->
 
 <!-- ![Profile Views](https://komarev.com/ghpvc/?username=szymonmyrta&color=brightgreen&style=flat-square) -->
