@@ -1,18 +1,4 @@
-<p align="center">
-
-# 🧬 Szymon Myrta
-
-# Bioinformatics Expert & AI Workflows Architect
-
-</p>
-
-# 🧬 Szymon Myrta
-
-<p align="center">
-
-<h1>Bioinformatics Expert & AI Workflows Architect</h1>
-
-</p>
+# 🧬 Szymon Myrta - Bioinformatics Expert & AI Workflows Architect
 
 <!-- ::: {align="center"} -->
 
@@ -20,7 +6,7 @@
 
 **🚀 8+ Years \| Publications in Top-Tier Journals \| Roche/Genentech Bioinformatician**
 
-### *Transforming genomic data into actionable insights through reproducible pipelines and AI-powered workflows*
+#### *Transforming genomic data into actionable insights through reproducible pipelines and AI-powered workflows*
 
 <!-- ::: -->
 
@@ -47,11 +33,7 @@ I specialize in **end-to-end genomic data analysis** from raw FASTQ files to pub
 
 <!-- ::: {align="center"} -->
 
-<p style="text-align: center;">
-
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</p>
 
 <!-- ::: -->
 
@@ -236,10 +218,6 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 <!-- ::: {align="center"} -->
 
-<p style="text-align: center;">
-
-```{=html}
-<pre><code>        
 ### 🚀 Ready to accelerate your genomic discoveries?
 
 **Personal Contact:**\
@@ -253,10 +231,6 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 **🌍 Available for:** Remote collaborations \| Consulting \| Contract projects\
 **🗣️ Languages:** English \| Polish (Native)\
 **⏰ Experience:** 8+ years in pharma/biotech \| International teams \| Multiple time zones
-</code></pre>
-```
-
-</p>
 
 <!-- ::: -->
 
@@ -264,13 +238,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 <!-- ::: {align="center"} -->
 
-*"From raw sequencing data to clinical insights - reproducible, scalable, and publication-ready."*
-
-<p align="center">
-
-*"From raw sequencing data to clinical insights - reproducible, scalable, and publication-ready."*
-
-</p>
+***"From raw sequencing data to clinical insights - reproducible, scalable, and publication-ready."***
 
 <!-- ::: -->
 
