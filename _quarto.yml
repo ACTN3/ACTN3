@@ -1,0 +1,68 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Szymon Myrta | Bioinformatics Expert"
+  site-url: "https://szymonmyrta.github.io"
+  repo-url: "https://github.com/szymonmyrta/portfolio"
+  repo-actions: [edit, issue]
+  
+  navbar:
+    background: "#0d1117"
+    foreground: "#ffffff"
+    logo: "assets/icons/dna-logo.svg"
+    logo-alt: "SM Bioinformatics"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Services"
+        href: index.qmd#services
+      - text: "Portfolio"
+        href: portfolio.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: github
+        href: "https://github.com/ACTN3Bioinformatics"
+        aria-label: "ACTN3 Bioinformatics GitHub"
+      - icon: linkedin
+        href: "https://linkedin.com/in/myrta/"
+        aria-label: "LinkedIn Profile"
+      - text: "📧 Contact"
+        href: contact.qmd
+        class: "cta-button"
+      # - text: "[📧 Contact](contact.qmd){.cta-button}"
+  
+  page-footer:
+    background: "#0d1117"
+    left: |
+      © 2025 Szymon Myrta | ACTN3 Bioinformatics  
+      [🌐 actn3.pl](https://actn3.pl) | [📧 contact@actn3.pl](mailto:contact@actn3.pl)
+    right: |
+      Built with [Quarto](https://quarto.org) | 
+      [ORCID: 0000-0003-1714-6105](https://orcid.org/0000-0003-1714-6105)
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - styles.css
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+    fig-responsive: true
+    page-layout: full
+    grid:
+      sidebar-width: 0px
+      body-width: 1200px
+      margin-width: 200px
+    
+execute:
+  freeze: auto
+  echo: false
+  warning: false

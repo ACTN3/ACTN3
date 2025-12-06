@@ -1,0 +1,277 @@
+---
+title: ""
+page-layout: custom
+---
+
+::: {.hero-section}
+::: {.hero-content}
+# 🧬 Szymon Myrta {.hero-title}
+
+## Bioinformatics Expert | 8+ Years | NGS & AI Workflows {.hero-subtitle}
+
+Transform your genomic data into **actionable insights** with reproducible pipelines and cutting-edge analysis.
+
+::: {.hero-stats}
+::: {.stat-item}
+**6**  
+Publications
+:::
+::: {.stat-item}
+**800+**  
+Patients Analyzed
+:::
+::: {.stat-item}
+**160K**  
+sgRNAs Screened
+:::
+::: {.stat-item}
+**8+**  
+Years Experience
+:::
+:::
+
+::: {.cta-buttons}
+[💼 Hire Me](contact.qmd){.btn-primary} 
+[📂 View Portfolio](portfolio.qmd){.btn-secondary}
+[📄 Download CV](#){.btn-secondary}
+:::
+
+:::
+
+::: {.hero-visual}
+![NGS Analysis Workflow](assets/images/hero-ngs.svg){.ngs-graphic}
+:::
+:::
+
+<!-- What I Solve Section -->
+::: {.section-solve}
+## 💡 What Problems Do I Solve? {.section-title}
+
+::: {.problems-grid}
+::: {.problem-card}
+### 🧬 Raw NGS Data Chaos
+**Problem:** You have TBs of FASTQ files but no pipeline  
+**Solution:** End-to-end analysis from QC → DE → figures  
+**Tools:** Snakemake, Seurat, edgeR, HTSeqGenie
+:::
+
+::: {.problem-card}
+### 🤖 AI-Ready Genomic Data
+**Problem:** Messy datasets, batch effects, imbalanced classes  
+**Solution:** Harmonized, ML-ready perturbation datasets  
+**Tools:** CRISPR normalization, feature engineering, CV design
+:::
+
+::: {.problem-card}
+### 📊 Publication-Quality Figures
+**Problem:** Analysis done but figures look unprofessional  
+**Solution:** Heatmaps, UMAPs, survival curves ready for Nature/Cell  
+**Tools:** ggplot2, ComplexHeatmap, Quarto reports
+:::
+
+::: {.problem-card}
+### 🏥 Clinical Trial Biomarkers
+**Problem:** Which patients respond to your drug?  
+**Solution:** Cox models, patient stratification, companion diagnostics  
+**Tools:** TCGA integration, survfit, pathway enrichment
+:::
+:::
+:::
+
+<!-- Services Section -->
+::: {#services .section-services}
+## 🛠️ Core Services {.section-title}
+
+::: {.services-grid}
+::: {.service-card}
+<div class="service-icon">🧬</div>
+### NGS Analysis
+- RNA-seq (bulk & single-cell)
+- ChIP-seq, ATAC-seq
+- WES/WGS variant calling
+- TCR/BCR-seq repertoires
+- CRISPR screen analysis
+- other NGS data
+ 
+**Format:** Quarto reports + GitHub repo
+:::
+
+::: {.service-card}
+<div class="service-icon">⚙️</div>
+### Pipeline Development
+- Snakemake/Nextflow workflows
+- Docker containerization
+- HPC optimization
+- CI/CD integration
+- Custom R packages
+  
+**Format:** Reproducible code + documentation
+:::
+
+::: {.service-card}
+<div class="service-icon">🤖</div>
+### AI-Powered Analysis
+- ML-ready feature extraction
+- Predictive modeling (drug response)
+- Multi-omics integration
+- LLM-assisted code generation
+- Automated QC systems
+  
+**Format:** Trained models + deployment scripts
+:::
+
+::: {.service-card}
+<div class="service-icon">📈</div>
+### Interactive Dashboards
+- Shiny apps for data exploration
+- Real-time QC monitoring
+- Client-facing visualizations
+- GitHub Pages portfolios
+- Quarto knowledge bases
+
+**Format:** Hosted app + source code
+:::
+
+::: {.service-card}
+<div class="service-icon">🔬</div>
+### Multi-Omics Integration
+- Transcriptomics + genomics
+- Spatial transcriptomics (10X Visium)
+- TCGA/GEO public data mining
+- Cross-species comparisons
+- Pathway enrichment analysis
+  
+**Format:** Integrated dataset + insights report
+:::
+
+::: {.service-card}
+<div class="service-icon">🏥</div>
+### Clinical Trial Support
+- Biomarker discovery & validation
+- Patient stratification algorithms
+- Survival analysis (Cox models)
+- Companion diagnostic development
+- Regulatory-compliant documentation
+  
+**Format:** Clinical-grade reports + code
+:::
+:::
+
+::: {.cta-center}
+[📧 Discuss Your Project](contact.qmd){.btn-primary-large}
+:::
+:::
+
+<!-- Skills Matrix Section -->
+::: {.section-skills}
+## 🎯 Technical Arsenal {.section-title}
+
+::: {.skills-matrix}
+::: {.skill-category}
+### 🧬 Bioinformatics
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Bioconductor](https://img.shields.io/badge/Bioconductor-1F8B4C?style=flat-square)
+![Seurat](https://img.shields.io/badge/Seurat-4.3-orange?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+**Core:** limma, edgeR, DESeq2, fgsea, ComplexHeatmap  
+**Single-cell:** Seurat, UMAPs, cell type annotation  
+**CRISPR:** crisprVerse, screenCounter, MAGeCK  
+**ML:** caret, PAM, consensus NMF, feature engineering
+:::
+
+::: {.skill-category}
+### ⚙️ Engineering
+![Snakemake](https://img.shields.io/badge/Snakemake-2.9-blueviolet?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+**Pipelines:** Snakemake, Nextflow, Bash scripting  
+**Reproducibility:** Quarto, Shiny, RMarkdown, literate programming  
+**Compute:** HPC clusters, parallel processing, CI/CD  
+**Data:** FASTQ/BAM/VCF parsing, dplyr, data.table
+:::
+
+::: {.skill-category}
+### 📊 Visualization
+![ggplot2](https://img.shields.io/badge/ggplot2-expert-green?style=flat-square)
+![Shiny](https://img.shields.io/badge/Shiny-apps-blue?style=flat-square)
+![Quarto](https://img.shields.io/badge/Quarto-2.0-orange?style=flat-square)
+
+**Static:** ggplot2, ComplexHeatmap, volcano plots  
+**Interactive:** Shiny dashboards, plotly, custom widgets  
+**Reports:** Quarto websites, dynamic RMarkdown, GitHub Pages
+:::
+
+::: {.skill-category}
+### 🗄️ Data Sources
+![TCGA](https://img.shields.io/badge/TCGA-integrated-red?style=flat-square)
+![GEO](https://img.shields.io/badge/GEO-expert-blue?style=flat-square)
+![cBioPortal](https://img.shields.io/badge/cBioPortal-orange?style=flat-square)
+
+**Public:** TCGA, GEO, EGA, SRA, cBioPortal  
+**Clinical:** OAK/POPLAR trials, FoundationOne   
+**Sequencing:** Illumina (HiSeq, NovaSeq), 10X Genomics
+:::
+:::
+:::
+
+<!-- Proof Section -->
+::: {.section-proof}
+## 📚 Research Impact {.section-title}
+
+::: {.proof-stats}
+::: {.proof-item}
+**6** Publications  
+*Top-tier journals*
+:::
+::: {.proof-item}
+**iScience, Clinical Cancer Research**  
+*Cancer Immunology Research*
+:::
+::: {.proof-item}
+**EMBO Molecular Medicine**  
+*bioRxiv preprint*
+:::
+:::
+
+::: {.publications-preview}
+### Featured Work
+
+::: {.pub-card}
+**🧬 Transcription factor Zfx regulates tumor immune evasion**  
+*iScience (2025)* | **Role:** CRISPR screen (160K sgRNAs), ChIP-seq, TCGA survival  
+[📄 Read Paper](https://doi.org/10.1016/j.isci.2025.113842){.pub-link}
+:::
+
+::: {.pub-card}
+**🧬 Transcriptional subtypes in lung adenocarcinoma**  
+*Clinical Cancer Research (2021)* | **Role:** NMF discovery, 113-gene PAM classifier  
+[📄 Read Paper](https://doi.org/10.1158/1078-0432.CCR-20-1835){.pub-link} | [💻 Code](https://github.com/anneleendaemen/LUAD.subtypes){.pub-link}
+:::
+
+::: {.pub-card}
+**🧬 ERBB signalling in KRAS-driven lung cancer**  
+*bioRxiv (2023)* | **Role:** scRNA-seq (10X, 22 clusters), PANTHER enrichment  
+[📄 Read Paper](https://doi.org/10.1101/2023.07.24.550274){.pub-link}
+:::
+
+[📖 View All Publications](publications.qmd){.btn-secondary-large}
+:::
+:::
+
+<!-- CTA Footer -->
+::: {.section-cta-footer}
+## Ready to Transform Your Genomic Data? {.cta-title}
+
+**Let's discuss how I can accelerate your discoveries**
+
+::: {.cta-buttons-footer}
+[📧 Email Me](mailto:szymon.myrta@gmail.com){.btn-primary-large}
+[💼 LinkedIn](https://linkedin.com/in/myrta/){.btn-secondary-large}
+[🏢 ACTN3 Bioinformatics](https://actn3.pl){.btn-secondary-large}
+:::
+:::
+
+<script src="assets/js/animations.js"></script>

@@ -1,4 +1,6 @@
-# 🧬 Szymon Myrta - Bioinformatics Expert & AI Workflows Architect
+<!-- # 🧬 Szymon Myrta - Bioinformatics Expert & AI Workflows Architect -->
+
+<h2 align="center">🧬Szymon Myrta - Bioinformatics Expert & AI Workflows Architect</h2>
 
 <!-- ::: {align="center"} -->
 
@@ -12,7 +14,7 @@
 
 <br>
 
-# 💡 What I Do
+## 💡 What I Do
 
 I specialize in **end-to-end genomic data analysis** from raw FASTQ files to publication-ready figures and clinical insights. My expertise bridges **bioinformatics, machine learning, and precision medicine**, delivering reproducible workflows that accelerate drug discovery and biomarker identification.
 
@@ -29,7 +31,7 @@ I specialize in **end-to-end genomic data analysis** from raw FASTQ files to pub
 
 ------------------------------------------------------------------------
 
-# 🛠️ Technical Stack
+## 🛠️ Technical Stack
 
 <!-- ::: {align="center"} -->
 
@@ -71,7 +73,7 @@ I specialize in **end-to-end genomic data analysis** from raw FASTQ files to pub
 
 ------------------------------------------------------------------------
 
-# 🏢 About ACTN3 Bioinformatics
+## 🏢 About ACTN3 Bioinformatics
 
 **Founder & Owner** \| [🔗 actn3.pl](https://www.actn3.pl) \| [💻 GitHub](https://github.com/ACTN3Bioinformatics)
 
@@ -84,7 +86,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 ------------------------------------------------------------------------
 
-# 📂 Featured Projects
+## 📂 My Open-source Projects
 
 ### 🧪 [VCC 2025 — scRNA-seq CRISPR Perturbation Pipeline](https://github.com/ACTN3Bioinformatics/VCC-project)
 
@@ -109,7 +111,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 ------------------------------------------------------------------------
 
-# 📚 Publications & Bioinformatics Contributions
+## 📚 Publications & Bioinformatics Contributions
 
 <!-- <details> -->
 
@@ -158,7 +160,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 ------------------------------------------------------------------------
 
-# 🎯 What I Bring to Your Project
+## 🎯 What I Bring to Your Project
 
 ### ✅ For Biotech/Pharma Companies
 
@@ -183,7 +185,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 ------------------------------------------------------------------------
 
-# 🌐 What Excites Me
+## 🌐 What Excites Me
 
 ``` yaml
 🤖 AI in Bioinformatics:
@@ -214,7 +216,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 ------------------------------------------------------------------------
 
-# 📫 Let's Collaborate
+## 📫 Let's Collaborate
 
 <!-- ::: {align="center"} -->
 
@@ -222,7 +224,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 [![Email](https://img.shields.io/badge/Email-szymon.myrta%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:szymon.myrta@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/myrta/)
 
 **Company contact (ACTN3 Bioinformatics):**\
-[![Website](https://img.shields.io/badge/Website-actn3.pl-FF6B6B?style=flat&logo=google-chrome&logoColor=white)](https://www.actn3.pl) [![GitHub](https://img.shields.io/badge/GitHub-ACTN3Bioinformatics-181717?style=flat&logo=github&logoColor=white)](https://github.com/ACTN3Bioinformatics) [![Email](https://img.shields.io/badge/Email-contact%40actn3.pl-D14836?style=flat&logo=gmail&logoColor=white)](mailto:kontakt@actn3.pl)
+[![Website](https://img.shields.io/badge/Website-actn3.pl-FF6B6B?style=flat&logo=google-chrome&logoColor=white)](https://www.actn3.pl) [![GitHub](https://img.shields.io/badge/GitHub-ACTN3Bioinformatics-181717?style=flat&logo=github&logoColor=white)](https://github.com/ACTN3Bioinformatics) [![Email](https://img.shields.io/badge/Email-kontakt%40actn3.pl-D14836?style=flat&logo=gmail&logoColor=white)](mailto:kontakt@actn3.pl)
 
 **🌍 Available for:** Remote collaborations \| Consulting \| Contract projects\
 **🗣️ Languages:** English \| Polish (Native)\

@@ -1,0 +1,217 @@
+---
+title: "Publications"
+---
+
+## 📚 Peer-Reviewed Publications {.section-title}
+
+*As bioinformatics co-author contributing computational analysis expertise*
+
+---
+
+### 🧬 **Transcription factor Zfx regulates tumor's evasion to T cell killing in immunotherapy**
+
+**Journal:** *iScience* (2025) | **DOI:** [10.1016/j.isci.2025.113842](https://doi.org/10.1016/j.isci.2025.113842)
+
+**Authors:** Kaufmann U, Wang J, Callow M, Fortin J, **Myrta S**, Nickles D, et al.
+
+#### Bioinformatics Contributions:
+- **CRISPR Screen Analysis:** Processed ~160,000 sgRNAs using crisprVerse (screenCounter), TMM normalization on non-essential genes, limma-voom with robust empirical Bayes
+- **RNA-seq (Bulk):** HTSeqGenie pipeline, GSNAP alignment (GRCh38), differential expression (edgeR, voom/limma), pathway enrichment (MSigDB Hallmark)
+- **ChIP-seq Integration:** Public data analysis (GEO: GSE102616), BWA alignment, promoter enrichment (ZFX binding sites in 4 cancer cell lines)
+- **Clinical Data Analysis:** TCGA integration, Cox proportional hazards models for survival, correlation analysis (ZFX expression vs patient outcomes)
+- **Visualization:** Volcano plots, heatmaps, Kaplan-Meier curves, scatter plots
+
+**Key Findings:** Identified ZFX as biomarker for immunotherapy response; ZFX regulates apoptosis pathway genes including CASP3
+
+**Data:** GEO accessions GSE276964 (in vitro), GSE276965 (in vivo)
+
+---
+
+### 🧬 **T cell–dependent bispecific therapy enhances innate immune activation and antibody-mediated killing**
+
+**Journal:** *Cancer Immunology Research* (2024) | **DOI:** [10.1158/2326-6066.CIR-23-0800](https://doi.org/10.1158/2326-6066.CIR-23-0800)
+
+**Authors:** Besla R, Penuel E, Rosario GD, Cosino E, **Myrta S**, Polson AG, et al.
+
+#### Bioinformatics Contributions:
+- **RNA-seq (Sorted NK Cells):** Smart-Seq V4 library prep (2ng input), HTSeqGenie processing, edgeR (logCPM), voom/limma differential expression (baseline vs 24h TDB)
+- **Gene Set Enrichment:** fgsea with MSigDB collections (c2, c5, c7), pathway visualization (IFN, TNF, interleukin pathways)
+- **Cytokine Analysis:** Luminex multiplex data integration (Human CD8+ T-cell 17+plex panel)
+- **Flow Cytometry Data:** FlowJo analysis support, gating strategy optimization
+- **Visualization:** Heat maps, bar graphs with multiple comparisons, pathway network diagrams
+
+**Key Findings:** TDB treatment activates NK cells via IL2/IL10 axis; enhanced ADCC observed in vitro and in vivo
+
+**Data:** EGA accession EGAS00001006914
+
+---
+
+### 🧬 **ERBB signalling contributes to immune evasion in KRAS-driven lung adenocarcinoma**
+
+**Journal:** *bioRxiv* (2023) | **DOI:** [10.1101/2023.07.24.550274](https://doi.org/10.1101/2023.07.24.550274)
+
+**Authors:** Laing S, Kruspig B, Shaw R, Officer-Jones L, Edwards S, McKinven D, **Myrta S**, et al.
+
+#### Bioinformatics Contributions:
+- **Bulk RNA-seq:** Multiple timepoints (8w, 12w, endpoint), Metacore GeneGO pathway analysis, differential expression
+- **Single-Cell RNA-seq:** 10X Genomics Chromium (40,000 cells/sample), 22 clusters identified using ImmGen databrowser, PANTHER overrepresentation analysis
+- **Pathway Enrichment:** EGFR/ERBB signaling (33.5x enrichment, FDR 1.06e-2), immune evasion pathways
+- **Whole Exome Sequencing:** COSMIC signature analysis (APOBEC mutagenesis signatures)
+- **Image Analysis Support:** HALO/QuPath workflows for TMA quantification (2653 biopsy cores)
+- **Visualization:** UMAPs, violin plots, correlation plots (AREG vs p-ERBB2), heatmaps
+
+**Key Findings:** ERBB ligand upregulation (AREG, HBEGF) mediates immune escape post-αPD-1 treatment; Afatinib restores immune infiltration
+
+---
+
+### 🧬 **Transcriptional subtypes resolve tumor heterogeneity and identify vulnerabilities to MEK inhibition in lung adenocarcinoma**
+
+**Journal:** *Clinical Cancer Research* (2021) | **DOI:** [10.1158/1078-0432.CCR-20-1835](https://doi.org/10.1158/1078-0432.CCR-20-1835)
+
+**Authors:** Daemen A, Cooper JE, **Myrta S**, Wongchenko MJ, Lin E, Long JE, Foreman O, Junttila MR, et al.
+
+#### Bioinformatics Contributions:
+- **Subtype Discovery:** Consensus nonnegative matrix factorization (NMF) across >800 patients (TCGA + clinical trials)
+- **Classifier Development:** PAM (Prediction Analysis for Microarrays) - 113-gene signature with 87-91% cross-cohort validation
+- **Multi-Cohort Integration:** TCGA, OAK trial (Phase III), POPLAR, gp28363 trials; harmonization of batch effects
+- **Gene Set Enrichment:** Camera method (limma) + MSigDB Hallmark collection
+- **Drug Response Modeling:** Spearman correlations (subtype score vs 526 compounds, 89 cell lines), ANOVA for predictive modeling
+- **Survival Analysis:** survfit, Cox proportional hazards models, interaction terms (STK11 × subtype)
+- **Preclinical Models:** 175 cell lines, 232 PDX, 108 GEMM tumors analyzed for subtype concordance
+- **Visualization:** Heatmaps (z-scored, saturated ±1.5), Kaplan-Meier curves, bar graphs, volcano plots
+
+**Key Findings:** Identified 3 subtypes (MUC, PRO, MES) with differential MEK inhibitor response; MES tumors benefit most from cobimetinib
+
+**Code:** [GitHub Repository](https://github.com/anneleendaemen/LUAD.subtypes)
+
+---
+
+### 🧬 **Inhibition of phosphodiesterase-4 promotes oligodendrocyte precursor cell differentiation and enhances CNS remyelination**
+
+**Journal:** *EMBO Molecular Medicine* (2013) | **DOI:** [10.1002/emmm.201303123](https://doi.org/10.1002/emmm.201303123)
+
+**Authors:** Syed YA, Baer A, Hofer MP, González GA, Rundle J, **Myrta S**, et al.
+
+#### Bioinformatics Contributions:
+- **Microarray Analysis:** Rat Exon 1.0ST array (Affymetrix), RMA normalization, limma (moderated t-test), FDR correction (Storey & Tibshirani)
+- **Differential Expression:** OPC differentiation timecourse (0h, 4h, 12h); identified Mapk pathway regulation
+- **qRT-PCR Validation:** TaqMan assays, normalization to β2-microglobulin
+- **Western Blot Quantification:** Densitometry (ROD) for p-Erk1/2, p-p38Mapk, p-Creb1
+- **Image Quantification Workflows:** ImageJ protocols for ISH (cells/mm²), IHC (automated Ki67/Olig2 counting), EM (G-ratio calculations)
+- **Quality Control:** Linear regression to exclude lesion size effects (>0.4 mm² threshold)
+- **Statistical Analysis:** GraphPad Prism (ANOVA + Dunnett's, Mann-Whitney U, t-tests)
+
+**Key Findings:** PDE4 inhibition (rolipram) accelerates OPC differentiation and remyelination via cAMP-Mapk-Creb1 signaling
+
+**Data:** [GEO: GSE50042](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50042)
+
+---
+
+## 📄 Conference Abstracts {.section-title}
+
+### **Transcriptional heterogeneity in lung adenocarcinoma reveals distinct therapeutic vulnerabilities**
+
+**Conference:** AACR Annual Meeting 2020  
+**Publication:** *Cancer Research* (2020) | Abstract PO-101  
+**Authors:** Daemen A, Cooper JE, **Myrta S**, Wongchenko MJ, et al.
+
+Preliminary data presentation of LUAD subtyping project (later published in *Clinical Cancer Research* 2021)
+
+---
+
+## 🔬 Research Metrics {.section-title}
+
+::: {.metrics-grid}
+
+::: {.metric-card}
+**6** Publications  
+*Peer-reviewed journals*
+:::
+
+::: {.metric-card}
+**3** Top-Tier Journals  
+*Impact Factor >10*
+:::
+
+::: {.metric-card}
+**>800** Patients  
+*Analyzed across studies*
+:::
+
+::: {.metric-card}
+**5** Public Datasets  
+*GEO/EGA depositions*
+:::
+
+:::
+
+---
+
+## 🎯 Expertise Demonstrated {.section-title}
+
+::: {.expertise-list}
+
+### RNA-seq Analysis
+✓ Bulk RNA-seq (HTSeqGenie, GSNAP, edgeR, DESeq2, limma-voom)  
+✓ Single-cell RNA-seq (10X Genomics, Seurat-equivalent, UMAP, clustering)  
+✓ Smart-Seq V4 ultra-low input (2ng → 150pg cDNA → Nextera XT)
+
+### Genomic Screens
+✓ CRISPR screens (~160K sgRNAs, crisprVerse, TMM normalization)  
+✓ ORF overexpression screens (mentioned in CV, not shown in publications)  
+✓ Drug response screens (526 compounds, correlation modeling)
+
+### Multi-Omics Integration
+✓ RNA-seq + WES + clinical data (TCGA, cBioPortal)  
+✓ RNA-seq + ChIP-seq (promoter binding analysis)  
+✓ RNA-seq + imaging (TMA, immunohistochemistry)  
+✓ RNA-seq + flow cytometry (immune profiling)
+
+### Machine Learning
+✓ Unsupervised: Consensus NMF (subtype discovery)  
+✓ Supervised: PAM classifier (113-gene signature, 87-91% accuracy)  
+✓ Feature engineering for drug response prediction  
+✓ Cross-validation design (4-fold larger validation cohort)
+
+### Statistical Rigor
+✓ Survival analysis (Cox models, Kaplan-Meier, log-rank tests)  
+✓ Multiple testing correction (FDR, Benjamini-Hochberg, q-values)  
+✓ Robust methods (empirical Bayes, moderated statistics)  
+✓ Interaction modeling (gene × treatment, STK11 × subtype)
+
+### Reproducible Research
+✓ Public data deposition (GEO: 3 datasets, EGA: 1 dataset)  
+✓ Code sharing (GitHub: LUAD.subtypes repository)  
+✓ Methods transparency (detailed Materials & Methods sections)  
+✓ FAIR data principles (metadata, accessibility)
+
+:::
+
+---
+
+## 📖 Full Publication List {.section-title}
+
+::: {.cta-center}
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-1714-6105)
+
+**View complete publication history and citation metrics**
+:::
+
+---
+
+## 💼 Interested in Similar Analysis? {.section-title}
+
+I can apply these same methodologies to your projects:
+
+::: {.services-quick-list}
+- 🧬 NGS analysis (RNA-seq, scRNA-seq, ChIP-seq, CRISPR screens)
+- 🤖 Machine learning classifier development
+- 📊 Multi-omics data integration
+- 🏥 Clinical trial biomarker discovery
+- 📈 Interactive visualization & reporting
+:::
+
+::: {.cta-center}
+[📧 Contact Me](contact.qmd){.btn-primary-large}
+[💼 View Portfolio](portfolio.qmd){.btn-secondary-large}
+:::
