@@ -1,0 +1,29 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a6ce39;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- DNA Helix Left -->
+  <path d="M 10 5 Q 14 12, 10 18 Q 6 24, 10 30 Q 14 36, 10 42" 
+        stroke="url(#logoGrad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- DNA Helix Right -->
+  <path d="M 30 5 Q 26 12, 30 18 Q 34 24, 30 30 Q 26 36, 30 42" 
+        stroke="url(#logoGrad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Base Pairs -->
+  <line x1="10" y1="12" x2="30" y2="12" stroke="#58a6ff" stroke-width="1.8" opacity="0.8"/>
+  <line x1="10" y1="24" x2="30" y2="24" stroke="#a6ce39" stroke-width="1.8" opacity="0.8"/>
+  <line x1="10" y1="36" x2="30" y2="36" stroke="#58a6ff" stroke-width="1.8" opacity="0.8"/>
+  
+  <!-- Dots -->
+  <circle cx="10" cy="12" r="2" fill="#58a6ff"/>
+  <circle cx="30" cy="12" r="2" fill="#58a6ff"/>
+  <circle cx="10" cy="24" r="2" fill="#a6ce39"/>
+  <circle cx="30" cy="24" r="2" fill="#a6ce39"/>
+  <circle cx="10" cy="36" r="2" fill="#58a6ff"/>
+  <circle cx="30" cy="36" r="2" fill="#58a6ff"/>
+</svg>
