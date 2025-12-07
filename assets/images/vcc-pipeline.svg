@@ -1,0 +1,113 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="greenBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a6ce39;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-size="28" font-weight="700" fill="url(#greenBlue)" font-family="'Space Grotesk', sans-serif">
+    VCC 2025 - scRNA-seq CRISPR Pipeline
+  </text>
+  
+  <!-- Snakemake Logo Area -->
+  <g transform="translate(400, 120)">
+    <rect x="-150" y="-40" width="300" height="80" rx="12" fill="#21262d" stroke="#a6ce39" stroke-width="2" opacity="0.9"/>
+    <text x="0" y="0" text-anchor="middle" font-size="20" font-weight="600" fill="#a6ce39" font-family="'Space Grotesk', sans-serif">
+      Snakemake Workflow
+    </text>
+    <text x="0" y="25" text-anchor="middle" font-size="14" fill="#8b949e" font-family="'Inter', sans-serif">
+      CI/CD | Docker | Reproducible
+    </text>
+  </g>
+  
+  <!-- Workflow Steps -->
+  <g transform="translate(100, 250)">
+    <!-- Step 1: FASTQ -->
+    <g>
+      <rect x="0" y="0" width="120" height="80" rx="8" fill="#21262d" stroke="#58a6ff" stroke-width="2" filter="url(#glow)"/>
+      <text x="60" y="35" text-anchor="middle" font-size="14" font-weight="600" fill="#58a6ff" font-family="'Inter', sans-serif">FASTQ</text>
+      <text x="60" y="55" text-anchor="middle" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Raw Data</text>
+    </g>
+    
+    <!-- Arrow -->
+    <path d="M 130 40 L 170 40" stroke="#a6ce39" stroke-width="2" marker-end="url(#arrow)"/>
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#a6ce39"/>
+      </marker>
+    </defs>
+    
+    <!-- Step 2: QC -->
+    <g transform="translate(180, 0)">
+      <rect x="0" y="0" width="120" height="80" rx="8" fill="#21262d" stroke="#a6ce39" stroke-width="2" filter="url(#glow)"/>
+      <text x="60" y="35" text-anchor="middle" font-size="14" font-weight="600" fill="#a6ce39" font-family="'Inter', sans-serif">QC Filter</text>
+      <text x="60" y="55" text-anchor="middle" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Seurat</text>
+    </g>
+    
+    <!-- Arrow -->
+    <path d="M 310 40 L 350 40" stroke="#a6ce39" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <!-- Step 3: Normalize -->
+    <g transform="translate(360, 0)">
+      <rect x="0" y="0" width="120" height="80" rx="8" fill="#21262d" stroke="#bc8cff" stroke-width="2" filter="url(#glow)"/>
+      <text x="60" y="35" text-anchor="middle" font-size="14" font-weight="600" fill="#bc8cff" font-family="'Inter', sans-serif">Normalize</text>
+      <text x="60" y="55" text-anchor="middle" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">sctransform</text>
+    </g>
+    
+    <!-- Arrow -->
+    <path d="M 490 40 L 530 40" stroke="#a6ce39" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <!-- Step 4: ML-Ready -->
+    <g transform="translate(540, 0)">
+      <rect x="0" y="0" width="120" height="80" rx="8" fill="#21262d" stroke="#ff6b6b" stroke-width="2" filter="url(#glow)"/>
+      <text x="60" y="35" text-anchor="middle" font-size="14" font-weight="600" fill="#ff6b6b" font-family="'Inter', sans-serif">ML Dataset</text>
+      <text x="60" y="55" text-anchor="middle" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Balanced</text>
+    </g>
+  </g>
+  
+  <!-- Features List -->
+  <g transform="translate(100, 370)">
+    <text x="0" y="0" font-size="14" fill="#c9d1d9" font-family="'Inter', sans-serif" font-weight="600">Key Features:</text>
+    
+    <g transform="translate(0, 20)">
+      <circle cx="0" cy="0" r="3" fill="#a6ce39"/>
+      <text x="15" y="4" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Automated QC + normalization</text>
+    </g>
+    
+    <g transform="translate(250, 20)">
+      <circle cx="0" cy="0" r="3" fill="#58a6ff"/>
+      <text x="15" y="4" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Docker containerization</text>
+    </g>
+    
+    <g transform="translate(500, 20)">
+      <circle cx="0" cy="0" r="3" fill="#bc8cff"/>
+      <text x="15" y="4" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Integrated Quarto reports</text>
+    </g>
+  </g>
+  
+  <!-- GitHub Badge -->
+  <g transform="translate(700, 410)">
+    <rect x="0" y="0" width="80" height="25" rx="4" fill="#21262d" stroke="#a6ce39" stroke-width="1"/>
+    <text x="40" y="17" text-anchor="middle" font-size="11" fill="#a6ce39" font-family="'Inter', sans-serif" font-weight="600">
+      GitHub →
+    </text>
+  </g>
+</svg>
