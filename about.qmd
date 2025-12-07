@@ -179,8 +179,12 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 ## 📄 Download CV {.section-title}
 
 ::: {.cta-center}
-[📥 Download PDF CV](#){.btn-primary-large}  
+[📥 Download PDF CV](assets/cv/Szymon_Myrta_CV_2025.pdf){.btn-primary-large download="Szymon_Myrta_CV_Bioinformatics.pdf"}  
 *(English version, updated December 2025)*
+
+**Alternative formats:**  
+[📄 View Online Resume](https://linkedin.com/in/myrta/){.btn-secondary} | 
+[📋 ORCID Profile](https://orcid.org/0000-0003-1714-6105){.btn-secondary}
 :::
 
 ---

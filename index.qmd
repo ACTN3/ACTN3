@@ -17,29 +17,25 @@ Transform your genomic data into **actionable insights** with reproducible pipel
 Publications
 :::
 ::: {.stat-item}
-**800+**  
-Patients Analyzed
-:::
-::: {.stat-item}
-**160K**  
-sgRNAs Screened
-:::
-::: {.stat-item}
-**8+**  
+**9+**  
 Years Experience
+:::
+::: {.stat-item}
+**200+**  
+NGS Datasets
 :::
 :::
 
 ::: {.cta-buttons}
 [💼 Hire Me](contact.qmd){.btn-primary} 
 [📂 View Portfolio](portfolio.qmd){.btn-secondary}
-[📄 Download CV](#){.btn-secondary}
+[📄 Download CV](assets/cv/Szymon_Myrta_CV_2025.pdf){.btn-secondary download="Szymon_Myrta_CV_Bioinformatics.pdf"}
 :::
 
 :::
 
 ::: {.hero-visual}
-![NGS Analysis Workflow](assets/images/hero-ngs.svg){.ngs-graphic}
+![NGS Analysis Workflow](assets/images/hero-ngs-improved.svg){.ngs-graphic}
 :::
 :::
 

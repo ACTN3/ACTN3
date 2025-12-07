@@ -1,39 +1,91 @@
+/*-- scss:defaults --*/
+// Color Palette - Dark Mode (default)
+$bg-primary: #0d1117;
+$bg-secondary: #161b22;
+$bg-tertiary: #21262d;
+$text-primary: #c9d1d9;
+$text-secondary: #8b949e;
+$accent-green: #a6ce39; // Bioinfo green
+$accent-red: #ff6b6b;   // ACTN3 red
+$accent-blue: #58a6ff;  // GitHub blue
+$accent-purple: #bc8cff;
+$border-color: #30363d;
+
+// Light Mode Colors
+$bg-primary-light: #ffffff;
+$bg-secondary-light: #f6f8fa;
+$bg-tertiary-light: #e8ecef;
+$text-primary-light: #24292f;
+$text-secondary-light: #57606a;
+$border-color-light: #d0d7de;
+
+// Typography
+$font-body: 'Inter', -apple-system, system-ui, sans-serif;
+$font-heading: 'Space Grotesk', 'Inter', sans-serif;
+$font-mono: 'Fira Code', 'JetBrains Mono', monospace;
+
+// Spacing
+$spacing-xs: 0.5rem;
+$spacing-sm: 1rem;
+$spacing-md: 2rem;
+$spacing-lg: 4rem;
+$spacing-xl: 6rem;
+
+// Shadows
+$shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+$shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+$shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+$glow-green: 0 0 20px rgba(166, 206, 57, 0.3);
+$glow-blue: 0 0 20px rgba(88, 166, 255, 0.3);
+
+/*-- scss:rules --*/
 /* ============================================
    BIOINFORMATICS PORTFOLIO 2025
    Dark Mode OLED Theme with Bioinfo Colors
    ============================================ */
 
 :root {
-  /* Color Palette */
-  --bg-primary: #0d1117;
-  --bg-secondary: #161b22;
-  --bg-tertiary: #21262d;
-  --text-primary: #c9d1d9;
-  --text-secondary: #8b949e;
-  --accent-green: #a6ce39; /* Bioinfo green */
-  --accent-red: #ff6b6b;   /* ACTN3 red */
-  --accent-blue: #58a6ff;  /* GitHub blue */
-  --accent-purple: #bc8cff;
-  --border-color: #30363d;
+  --bg-primary: #{$bg-primary};
+  --bg-secondary: #{$bg-secondary};
+  --bg-tertiary: #{$bg-tertiary};
+  --text-primary: #{$text-primary};
+  --text-secondary: #{$text-secondary};
+  --accent-green: #{$accent-green};
+  --accent-red: #{$accent-red};
+  --accent-blue: #{$accent-blue};
+  --accent-purple: #{$accent-purple};
+  --border-color: #{$border-color};
   
-  /* Typography */
-  --font-body: 'Inter', -apple-system, system-ui, sans-serif;
-  --font-heading: 'Space Grotesk', 'Inter', sans-serif;
-  --font-mono: 'Fira Code', 'JetBrains Mono', monospace;
+  --font-body: #{$font-body};
+  --font-heading: #{$font-heading};
+  --font-mono: #{$font-mono};
   
-  /* Spacing */
-  --spacing-xs: 0.5rem;
-  --spacing-sm: 1rem;
-  --spacing-md: 2rem;
-  --spacing-lg: 4rem;
-  --spacing-xl: 6rem;
+  --spacing-xs: #{$spacing-xs};
+  --spacing-sm: #{$spacing-sm};
+  --spacing-md: #{$spacing-md};
+  --spacing-lg: #{$spacing-lg};
+  --spacing-xl: #{$spacing-xl};
   
-  /* Shadows */
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
-  --glow-green: 0 0 20px rgba(166, 206, 57, 0.3);
-  --glow-blue: 0 0 20px rgba(88, 166, 255, 0.3);
+  --shadow-sm: #{$shadow-sm};
+  --shadow-md: #{$shadow-md};
+  --shadow-lg: #{$shadow-lg};
+  --glow-green: #{$glow-green};
+  --glow-blue: #{$glow-blue};
+}
+
+/* Light mode */
+[data-theme="light"] {
+  --bg-primary: #{$bg-primary-light};
+  --bg-secondary: #{$bg-secondary-light};
+  --bg-tertiary: #{$bg-tertiary-light};
+  --text-primary: #{$text-primary-light};
+  --text-secondary: #{$text-secondary-light};
+  --border-color: #{$border-color-light};
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.2);
+  --glow-green: 0 0 20px rgba(166, 206, 57, 0.2);
+  --glow-blue: 0 0 20px rgba(88, 166, 255, 0.2);
 }
 
 /* ============================================
@@ -54,9 +106,18 @@ html {
 body {
   font-family: var(--font-body);
   background: var(--bg-primary);
-  color: var(--text-primary);
+  color: var(--text-primary) !important;
   line-height: 1.7;
   overflow-x: hidden;
+}
+
+/* Force text visibility - critical fix */
+body * {
+  color: inherit;
+}
+
+.quarto-title-block {
+  display: none; /* Hide Quarto's default title */
 }
 
 ::selection {
@@ -73,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: var(--spacing-sm);
+  color: var(--text-primary) !important;
 }
 
 h1 { font-size: clamp(2.5rem, 5vw, 4rem); }
@@ -101,7 +163,14 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
 
 p {
   margin-bottom: var(--spacing-sm);
-  color: var(--text-secondary);
+  color: var(--text-secondary) !important;
+}
+
+/* Override Quarto defaults */
+#quarto-content p,
+.quarto-content p,
+article p {
+  color: var(--text-secondary) !important;
 }
 
 code {
@@ -114,13 +183,13 @@ code {
 }
 
 a {
-  color: var(--accent-blue);
+  color: var(--accent-blue) !important;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 a:hover {
-  color: var(--accent-green);
+  color: var(--accent-green) !important;
   text-shadow: var(--glow-green);
 }
 
@@ -155,19 +224,58 @@ a:hover {
   transform: translateY(-2px);
 }
 
-.cta-button {
+// Special styling for Contact button (since we can't use class in navbar)
+.navbar-nav .nav-item:last-child .nav-link {
   background: linear-gradient(135deg, var(--accent-green), var(--accent-blue));
   color: var(--bg-primary) !important;
   padding: 0.5rem 1.5rem !important;
   border-radius: 8px;
   font-weight: 600;
   box-shadow: var(--shadow-sm);
-  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+    color: var(--bg-primary) !important;
+  }
 }
 
-.cta-button:hover {
-  transform: translateY(-3px);
+/* Theme Toggle Button */
+.theme-toggle {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 999;
+  background: var(--bg-secondary);
+  border: 2px solid var(--border-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
   box-shadow: var(--shadow-md);
+  
+  &:hover {
+    transform: scale(1.1) rotate(15deg);
+    border-color: var(--accent-green);
+    box-shadow: var(--shadow-lg), var(--glow-green);
+  }
+  
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.theme-toggle-icon {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover .theme-toggle-icon {
+  transform: rotate(180deg);
 }
 
 /* ============================================
@@ -221,7 +329,7 @@ a:hover {
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-size: clamp(2rem, 4vw, 3.5rem);
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: var(--spacing-sm);
@@ -240,7 +348,7 @@ a:hover {
 
 .hero-stats {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--spacing-md);
   margin: var(--spacing-lg) 0;
 }
@@ -707,8 +815,13 @@ a:hover {
     padding: var(--spacing-lg) var(--spacing-sm);
   }
   
+  .hero-visual {
+    order: -1; /* Move image above content on mobile */
+    margin-bottom: var(--spacing-md);
+  }
+  
   .hero-stats {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
   
   .cta-buttons, .cta-buttons-footer {

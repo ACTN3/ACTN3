@@ -6,6 +6,49 @@
 document.addEventListener('DOMContentLoaded', function() {
   
   // ============================================
+  // THEME TOGGLE (Dark/Light Mode)
+  // ============================================
+  
+  // Create theme toggle button
+  const createThemeToggle = () => {
+    const toggle = document.createElement('button');
+    toggle.className = 'theme-toggle';
+    toggle.setAttribute('aria-label', 'Toggle theme');
+    toggle.innerHTML = '<span class="theme-toggle-icon">🌙</span>';
+    document.body.appendChild(toggle);
+    
+    // Load saved theme preference
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    updateThemeIcon(savedTheme);
+    
+    // Toggle theme on click
+    toggle.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      updateThemeIcon(newTheme);
+      
+      // Smooth transition
+      document.body.style.transition = 'background-color 0.3s ease, color 0.3s ease';
+      setTimeout(() => {
+        document.body.style.transition = '';
+      }, 300);
+    });
+  };
+  
+  const updateThemeIcon = (theme) => {
+    const icon = document.querySelector('.theme-toggle-icon');
+    if (icon) {
+      icon.textContent = theme === 'dark' ? '🌙' : '☀️';
+    }
+  };
+  
+  createThemeToggle();
+  
+  // ============================================
   // LOADING ANIMATION
   // ============================================
   
@@ -71,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     
     if (scrollTop > 100) {
-      navbar.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.5)';
+      navbar.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.3)';
     } else {
       navbar.style.boxShadow = 'none';
     }
@@ -174,103 +217,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   // ============================================
-  // PARTICLE BACKGROUND (OPTIONAL - DNA THEME)
-  // ============================================
-  
-  const createParticles = () => {
-    const canvas = document.createElement('canvas');
-    canvas.id = 'particles-canvas';
-    canvas.style.cssText = `
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      pointer-events: none;
-    `;
-    document.body.prepend(canvas);
-    
-    const ctx = canvas.getContext('2d');
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-    
-    const particles = [];
-    const particleCount = 50;
-    
-    class Particle {
-      constructor() {
-        this.x = Math.random() * canvas.width;
-        this.y = Math.random() * canvas.height;
-        this.size = Math.random() * 2 + 1;
-        this.speedX = Math.random() * 0.5 - 0.25;
-        this.speedY = Math.random() * 0.5 - 0.25;
-        this.opacity = Math.random() * 0.5 + 0.2;
-      }
-      
-      update() {
-        this.x += this.speedX;
-        this.y += this.speedY;
-        
-        if (this.x > canvas.width) this.x = 0;
-        if (this.x < 0) this.x = canvas.width;
-        if (this.y > canvas.height) this.y = 0;
-        if (this.y < 0) this.y = canvas.height;
-      }
-      
-      draw() {
-        ctx.fillStyle = `rgba(166, 206, 57, ${this.opacity})`;
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fill();
-      }
-    }
-    
-    for (let i = 0; i < particleCount; i++) {
-      particles.push(new Particle());
-    }
-    
-    const animate = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      
-      particles.forEach(particle => {
-        particle.update();
-        particle.draw();
-      });
-      
-      // Draw connections
-      particles.forEach((a, i) => {
-        particles.slice(i + 1).forEach(b => {
-          const dx = a.x - b.x;
-          const dy = a.y - b.y;
-          const distance = Math.sqrt(dx * dx + dy * dy);
-          
-          if (distance < 100) {
-            ctx.strokeStyle = `rgba(88, 166, 255, ${0.1 * (1 - distance / 100)})`;
-            ctx.lineWidth = 0.5;
-            ctx.beginPath();
-            ctx.moveTo(a.x, a.y);
-            ctx.lineTo(b.x, b.y);
-            ctx.stroke();
-          }
-        });
-      });
-      
-      requestAnimationFrame(animate);
-    };
-    
-    animate();
-    
-    window.addEventListener('resize', () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    });
-  };
-  
-  // Uncomment to enable particles:
-  // createParticles();
-  
-  // ============================================
   // CONSOLE EASTER EGG
   // ============================================
   
@@ -284,13 +230,16 @@ document.addEventListener('DOMContentLoaded', function() {
   %cTools: R/Bioconductor | Seurat | Snakemake | Quarto
   
   %c🚀 Check out my work at https://actn3.pl
+  
+  %c💡 Tip: Press the 🌙/☀️ button to toggle dark/light mode!
   `,
   'color: #a6ce39; font-size: 16px; font-weight: bold;',
   'color: #58a6ff; font-size: 14px;',
   'color: #ff6b6b; font-size: 14px; font-weight: bold;',
   'color: #c9d1d9; font-size: 12px;',
   'color: #8b949e; font-size: 12px;',
-  'color: #a6ce39; font-size: 12px; font-weight: bold;'
+  'color: #a6ce39; font-size: 12px; font-weight: bold;',
+  'color: #bc8cff; font-size: 11px; font-style: italic;'
   );
   
 });
