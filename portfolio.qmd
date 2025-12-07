@@ -4,188 +4,194 @@ title: "Portfolio"
 
 ## 🚀 Featured Projects {.section-title}
 
-::: {.portfolio-grid}
-
-::: {.project-card featured}
+::::: portfolio-grid
+::: {.project-card .featured}
 ### 🧪 VCC 2025 - scRNA-seq CRISPR Pipeline
+
 **AI-Ready Perturbation Datasets**
 
-![Snakemake Workflow](assets/images/vcc-pipeline.png){.project-image}
+![Snakemake Workflow](assets/images/vcc-pipeline.svg){.project-image}
 
 Reproducible Snakemake pipeline producing harmonized, balanced, ML-ready perturbation datasets from single-cell CRISPR screens.
 
 **Key Features:**
-- 📊 Automated QC + normalization (Seurat, sctransform)
-- ⚖️ Balanced control/perturbation groups
-- 🐳 Docker containerization for reproducibility
-- 📈 Integrated Quarto reports
+
+-   📊 Automated QC + normalization (Seurat, sctransform)
+-   ⚖️ Balanced control/perturbation groups
+-   🐳 Docker containerization for reproducibility
+-   📈 Integrated Quarto reports
 
 **Tech Stack:** Snakemake, R/Seurat, Docker, Quarto
 
-[🔗 GitHub Repository](https://github.com/ACTN3Bioinformatics/VCC-project){.btn-primary}
-[📖 Documentation](https://actn3bioinformatics.github.io/VCC-project/){.btn-secondary}
+[🔗 GitHub Repository](https://github.com/ACTN3Bioinformatics/VCC-project){.btn-primary} [📖 Documentation](https://actn3bioinformatics.github.io/VCC-project/){.btn-secondary}
 :::
 
-::: {.project-card featured}
+::: {.project-card .featured}
 ### 📚 R/Pharma 2025 Workshops Portal
+
 **Knowledge Base for Pharmaceutical Bioinformatics**
 
-![Quarto Website](assets/images/rpharma-site.png){.project-image}
+![Quarto Website](assets/images/rpharma-site.svg){.project-image}
 
 Comprehensive Quarto website documenting R/Pharma 2025 workshops, tools, and modern R workflows for pharma/biotech.
 
 **Key Features:**
-- 📖 Structured workshop documentation
-- 🚀 Reproducible examples (Positron IDE, Shiny)
-- 🔗 Curated resource library
-- 🌐 GitHub Pages deployment
+
+-   📖 Structured workshop documentation
+-   🚀 Reproducible examples (Positron IDE, Shiny)
+-   🔗 Curated resource library
+-   🌐 GitHub Pages deployment
 
 **Tech Stack:** Quarto, RMarkdown, GitHub Actions, Positron
 
-[🔗 GitHub Repository](https://github.com/ACTN3Bioinformatics/R-Pharma-2025-Workshops){.btn-primary}
-[🌐 Live Site](https://actn3bioinformatics.github.io/R-Pharma-2025-Workshops/){.btn-secondary}
+[🔗 GitHub Repository](https://github.com/ACTN3Bioinformatics/R-Pharma-2025-Workshops){.btn-primary} [🌐 Live Site](https://actn3bioinformatics.github.io/R-Pharma-2025-Workshops/){.btn-secondary}
 :::
+:::::
 
-:::
-
----
+------------------------------------------------------------------------
 
 ## 📊 Client Projects {.section-title}
 
-::: {.portfolio-grid}
-
-::: {.project-card}
+::::::::: portfolio-grid
+::: project-card
 ### 🧬 Lung Cancer Subtype Classifier
+
 **Precision Medicine Tool for MEK Inhibitor Response**
 
-Developed 113-gene PAM classifier identifying 3 transcriptional subtypes (MUC, PRO, MES) in >800 lung adenocarcinoma patients. Classifier predicts MEK inhibitor response with 87-91% accuracy.
+Developed 113-gene PAM classifier identifying 3 transcriptional subtypes (MUC, PRO, MES) in \>800 lung adenocarcinoma patients. Classifier predicts MEK inhibitor response with 87-91% accuracy.
 
-**Impact:** Published in *Clinical Cancer Research* (2021)  
-**Methods:** Consensus NMF, PAM, survfit, Cox models  
+**Impact:** Published in *Clinical Cancer Research* (2021)\
+**Methods:** Consensus NMF, PAM, survfit, Cox models\
 **Tools:** R/Bioconductor, TCGA/cBioPortal integration
 
 [📄 Publication](https://doi.org/10.1158/1078-0432.CCR-20-1835){.pub-link}
 :::
 
-::: {.project-card}
+::: project-card
 ### 🔬 CRISPR Screen Analysis Platform
+
 **Genome-Wide Screen for Immunotherapy Resistance**
 
-Analyzed ~160,000 sgRNAs screening for tumor immune evasion genes. Identified ZFX transcription factor as biomarker for anti-PD-1 response.
+Analyzed \~160,000 sgRNAs screening for tumor immune evasion genes. Identified ZFX transcription factor as biomarker for anti-PD-1 response.
 
-**Impact:** Published in *iScience* (2025)  
-**Methods:** crisprVerse, TMM normalization, edgeR, ChIP-seq  
+**Impact:** Published in *iScience* (2025)\
+**Methods:** crisprVerse, TMM normalization, edgeR, ChIP-seq\
 **Tools:** R/Bioconductor, BWA, COSMIC signatures
 
 [📄 Publication](https://doi.org/10.1016/j.isci.2025.113842){.pub-link}
 :::
 
-::: {.project-card}
+::: project-card
 ### 🧫 Single-Cell Atlas of Tumor Microenvironment
+
 **Multi-Modal Analysis of KRAS-Driven Lung Cancer**
 
 10X Genomics scRNA-seq analysis (40,000 cells, 22 clusters) revealing EGFR/ERBB-mediated immune escape mechanisms.
 
-**Impact:** bioRxiv preprint (2023)  
-**Methods:** ImmGen annotation, PANTHER enrichment, UMAPs  
+**Impact:** bioRxiv preprint (2023)\
+**Methods:** ImmGen annotation, PANTHER enrichment, UMAPs\
 **Tools:** 10X Genomics, Seurat-equivalent, HALO/QuPath
 
 [📄 Preprint](https://doi.org/10.1101/2023.07.24.550274){.pub-link}
 :::
 
-::: {.project-card}
+::: project-card
 ### 💊 NK Cell Activation Profiling
+
 **Bispecific Antibody Mechanism Study**
 
 RNA-seq analysis of NK cells post-TDB treatment, identifying cytokine-driven activation pathways (IFN, TNF, IL2/IL10 axes).
 
-**Impact:** Published in *Cancer Immunology Research* (2024)  
-**Methods:** HTSeqGenie, fgsea, MSigDB enrichment, Luminex integration  
+**Impact:** Published in *Cancer Immunology Research* (2024)\
+**Methods:** HTSeqGenie, fgsea, MSigDB enrichment, Luminex integration\
 **Tools:** R/Bioconductor, Smart-Seq V4, NovaSeq 6000
 
 [📄 Publication](https://doi.org/10.1158/2326-6066.CIR-23-0800){.pub-link}
 :::
 
-::: {.project-card}
+::: project-card
 ### 🧠 CNS Remyelination Biomarker Discovery
+
 **Microarray Analysis for Multiple Sclerosis Therapy**
 
 Identified PDE4 inhibition as therapeutic approach for remyelination. Analyzed microarray data (Rat Exon 1.0ST) with integrated in vivo image quantification.
 
-**Impact:** Published in *EMBO Molecular Medicine* (2013)  
-**Methods:** RMA normalization, limma, ImageJ workflows, G-ratio calculations  
+**Impact:** Published in *EMBO Molecular Medicine* (2013)\
+**Methods:** RMA normalization, limma, ImageJ workflows, G-ratio calculations\
 **Tools:** Affymetrix platform, R/Bioconductor, GEO (GSE50042)
 
-[📄 Publication](https://doi.org/10.1002/emmm.201303123){.pub-link} | [📊 Data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50042){.pub-link}
+[📄 Publication](https://doi.org/10.1002/emmm.201303123){.pub-link} \| [📊 Data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50042){.pub-link}
 :::
 
-::: {.project-card}
+::: project-card
 ### 📈 Interactive Shiny Dashboard Suite
+
 **Real-Time NGS QC & Exploratory Analysis**
 
 Custom Shiny applications for client-facing data exploration, including:
-- Real-time sequencing QC monitoring
-- Interactive UMAP/volcano plot explorers
-- Drug response visualization tools
-- Pathway enrichment browsers
 
-**Tech Stack:** Shiny, ggplot2, plotly, DT, shinydashboard  
+-   Real-time sequencing QC monitoring
+-   Interactive UMAP/volcano plot explorers
+-   Drug response visualization tools
+-   Pathway enrichment browsers
+
+**Tech Stack:** Shiny, ggplot2, plotly, DT, shinydashboard\
 **Deployment:** RStudio Connect / shinyapps.io
 
 [💻 Demo Available Upon Request](contact.qmd){.btn-secondary}
 :::
+:::::::::
 
-:::
-
----
+------------------------------------------------------------------------
 
 ## 🛠️ Open Source Contributions {.section-title}
 
-::: {.contributions-grid}
-
-::: {.contribution-item}
+:::::: contributions-grid
+::: contribution-item
 ### 📦 R Package Development
+
 **Fluidigm Data Handler**
 
 Custom R package for Fluidigm qPCR data processing and analysis developed during Roche/Avenga tenure.
 
-**Features:** Automated QC, batch correction, visualization  
+**Features:** Automated QC, batch correction, visualization\
 **Status:** Internal use (proprietary)
 :::
 
-::: {.contribution-item}
+::: contribution-item
 ### 🔧 Pipeline Templates
+
 **Snakemake/Nextflow Starters**
 
 Open-source templates for common NGS workflows (RNA-seq, ChIP-seq, CRISPR screens) with Docker integration.
 
-**Status:** In development for ACTN3 Bioinformatics  
+**Status:** In development for ACTN3 Bioinformatics\
 [🔗 Coming Soon](https://github.com/ACTN3Bioinformatics){.btn-secondary}
 :::
 
-::: {.contribution-item}
+::: contribution-item
 ### 📚 Documentation & Tutorials
+
 **R/Pharma Workshop Materials**
 
 Quarto-based educational resources for pharmaceutical bioinformatics, including reproducible examples and best practices.
 
 [🌐 View Portal](https://actn3bioinformatics.github.io/R-Pharma-2025-Workshops/){.btn-secondary}
 :::
+::::::
 
-:::
-
----
+------------------------------------------------------------------------
 
 ## 💼 Want to Collaborate? {.section-title}
 
 I'm available for:
-- 🧬 **Contract NGS Analysis**
-- ⚙️ **Pipeline Development** (custom Snakemake/Nextflow workflows)
-- 🤖 **AI Integration** (ML-ready dataset preparation, predictive modeling)
-- 📊 **Shiny Dashboard Creation** (interactive data exploration tools)
-- 📖 **Publication Support** (methods sections, supplementary analyses, figures)
 
-::: {.cta-center}
-[📧 Discuss Your Project](contact.qmd){.btn-primary-large}
-[💼 View LinkedIn](https://linkedin.com/in/myrta/){.btn-secondary-large}
+-   🧬 **Contract NGS Analysis**
+-   ⚙️ **Pipeline Development** (custom Snakemake/Nextflow workflows)
+-   🤖 **AI Integration** (ML-ready dataset preparation, predictive modeling)
+-   📊 **Shiny Dashboard Creation** (interactive data exploration tools)
+-   📖 **Publication Support** (methods sections, supplementary analyses, figures)
+
+::: cta-center
+[📧 Discuss Your Project](contact.qmd){.btn-primary-large} [💼 View LinkedIn](https://linkedin.com/in/myrta/){.btn-secondary-large}
 :::
