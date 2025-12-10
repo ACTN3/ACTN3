@@ -133,7 +133,7 @@ FASTQ, BAM, VCF, h5ad, Seurat objects, CSV/TSV, Excel, and most genomics formats
 Yes, I'm happy to sign NDAs for confidential projects.
 
 ### Can you work with proprietary data?
-Absolutely. I have 8+ years experience with pharma/biotech confidential datasets.
+Absolutely. I have 9+ years experience with pharma/biotech confidential datasets.
 
 ### Do you provide publication support?
 Yes! I can write Methods sections, create supplementary analyses, and prepare publication-quality figures.

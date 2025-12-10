@@ -45,9 +45,8 @@ website:
 
 format:
   html:
-    theme: 
-      - cosmo
-      - styles.scss
+    theme: cosmo
+    css: styles.css
     toc: false
     smooth-scroll: true
     code-copy: true
@@ -64,7 +63,7 @@ format:
           <meta name="description" content="Szymon Myrta - Expert bioinformatician with 9+ years experience in NGS analysis, scRNA-seq, CRISPR screens, and AI-powered genomic workflows">
           <meta property="og:title" content="Szymon Myrta | Bioinformatics Expert">
           <meta property="og:description" content="Transform your genomic data into actionable insights with reproducible pipelines and cutting-edge analysis">
-          <meta property="og:image" content="https://actn3.github.io/assets/images/og-preview.png">
+          <meta property="og:image" content="https://actn3.github.io/assets/images/og-preview.svg">
           <meta property="og:type" content="website">
           <meta name="twitter:card" content="summary_large_image">
     

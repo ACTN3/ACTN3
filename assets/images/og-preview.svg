@@ -45,7 +45,7 @@
     
     <!-- Tagline -->
     <text text-anchor="middle" font-family="'Inter', sans-serif" font-weight="300">
-      <tspan x="0" y="130" font-size="24" fill="#8b949e">8+ Years | NGS Analysis | AI Workflows</tspan>
+      <tspan x="0" y="130" font-size="24" fill="#8b949e">NGS Analysis | AI Workflows | Reports and Visualizations</tspan>
     </text>
   </g>
   
@@ -59,14 +59,14 @@
     
     <g transform="translate(200, 0)">
       <rect x="0" y="0" width="150" height="100" rx="12" fill="#21262d" stroke="#58a6ff" stroke-width="2" opacity="0.9"/>
-      <text x="75" y="45" text-anchor="middle" font-size="40" font-weight="bold" fill="#58a6ff" font-family="'Space Grotesk', sans-serif">800+</text>
-      <text x="75" y="75" text-anchor="middle" font-size="16" fill="#c9d1d9" font-family="'Inter', sans-serif">Patients</text>
+      <text x="75" y="45" text-anchor="middle" font-size="40" font-weight="bold" fill="#58a6ff" font-family="'Space Grotesk', sans-serif">200+</text>
+      <text x="75" y="75" text-anchor="middle" font-size="16" fill="#c9d1d9" font-family="'Inter', sans-serif">NGS Datasets</text>
     </g>
     
     <g transform="translate(400, 0)">
       <rect x="0" y="0" width="150" height="100" rx="12" fill="#21262d" stroke="#bc8cff" stroke-width="2" opacity="0.9"/>
-      <text x="75" y="45" text-anchor="middle" font-size="40" font-weight="bold" fill="#bc8cff" font-family="'Space Grotesk', sans-serif">160K</text>
-      <text x="75" y="75" text-anchor="middle" font-size="16" fill="#c9d1d9" font-family="'Inter', sans-serif">sgRNAs</text>
+      <text x="75" y="45" text-anchor="middle" font-size="40" font-weight="bold" fill="#bc8cff" font-family="'Space Grotesk', sans-serif">9+</text>
+      <text x="75" y="75" text-anchor="middle" font-size="16" fill="#c9d1d9" font-family="'Inter', sans-serif">Years of Experience</text>
     </g>
   </g>
   

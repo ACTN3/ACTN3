@@ -7,7 +7,7 @@ page-layout: custom
 ::: {.hero-content}
 # 🧬 Szymon Myrta {.hero-title}
 
-## Bioinformatics Expert | 8+ Years | NGS & AI Workflows {.hero-subtitle}
+## Bioinformatics Expert | 9+ Years | NGS & AI Workflows {.hero-subtitle}
 
 Transform your genomic data into **actionable insights** with reproducible pipelines and cutting-edge analysis.
 

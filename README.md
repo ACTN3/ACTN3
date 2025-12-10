@@ -6,9 +6,11 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/myrta/) [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-1714-6105) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:szymon.myrta@gmail.com) [![ACTN3](https://img.shields.io/badge/ACTN3_Bioinformatics-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ACTN3Bioinformatics)
 
-**🚀 8+ Years \| Publications in Top-Tier Journals \| Roche/Genentech Bioinformatician**
+**🚀 9+ Years \| Publications in Top-Tier Journals \| Roche/Genentech Bioinformatician**
 
 #### *Transforming genomic data into actionable insights through reproducible pipelines and AI-powered workflows*
+
+<!-- ### [PERSONAL PAGE - built with Quarto](https://actn3.github.io/ACTN3/) -->
 
 <!-- ::: -->
 
@@ -228,7 +230,7 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 **🌍 Available for:** Remote collaborations \| Consulting \| Contract projects\
 **🗣️ Languages:** English \| Polish (Native)\
-**⏰ Experience:** 8+ years in pharma/biotech \| International teams \| Multiple time zones
+**⏰ Experience:** 9+ years in pharma/biotech \| International teams \| Multiple time zones
 
 <!-- ::: -->
 
