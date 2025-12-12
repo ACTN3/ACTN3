@@ -1,1 +1,1 @@
-Sitemap: https://actn3.github.io/sitemap.xml
+Sitemap: https://actn3.github.io/ACTN3/sitemap.xml
