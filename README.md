@@ -1,6 +1,6 @@
 <!-- # 🧬 Szymon Myrta - Bioinformatics Expert & AI Workflows Architect -->
 
-<h2 align="center">🧬Szymon Myrta - Bioinformatics Expert & AI Workflows Architect</h2>
+<h2 align="center">Szymon Myrta - Bioinformatics Expert & AI Workflows Architect</h2>
 
 <!-- ::: {align="center"} -->
 
@@ -238,7 +238,13 @@ ACTN3 Bioinformatics delivers cutting-edge genomic analysis services to biotech,
 
 <!-- ::: {align="center"} -->
 
-***"From raw sequencing data to clinical insights - reproducible, scalable and publication-ready."***
+<h2 align="center">
+
+"From raw sequencing data to clinical insights -
+
+reproducible, scalable and publication-ready."
+
+</h2>
 
 <!-- ::: -->
 

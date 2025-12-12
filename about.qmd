@@ -11,6 +11,10 @@ title: "About"
 
 I transform complex genomic data into actionable insights through reproducible pipelines,  
 cutting-edge analysis, and AI-powered workflows.
+
+::: {.actn3-badge}
+⚡ Named after the ACTN3 "Speed Gene" — symbolizing fast, efficient, high-performance bioinformatics
+:::
 :::
 
 ---
@@ -176,19 +180,6 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 
 ---
 
-## 📄 Download CV {.section-title}
-
-::: {.cta-center}
-[📥 Download PDF CV](assets/cv/Szymon_Myrta_CV_2025.pdf){.btn-primary-large download="Szymon_Myrta_CV_Bioinformatics.pdf"}  
-*(English version, updated December 2025)*
-
-**Alternative formats:**  
-[📄 View Online Resume](https://linkedin.com/in/myrta/){.btn-secondary} | 
-[📋 ORCID Profile](https://orcid.org/0000-0003-1714-6105){.btn-secondary}
-:::
-
----
-
 ## 🤝 Let's Work Together {.section-title}
 
 ::: {.about-cta}
@@ -197,5 +188,9 @@ I'm passionate about turning complex genomic data into discoveries that matter.
 
 Whether you're a **biotech startup**, **academic lab**, **pharma company**, or **CRO**, let's discuss how I can help accelerate your research with cutting-edge bioinformatics solutions.
 
-[📧 Contact Me](contact.qmd){.btn-primary-large}
+**Connect with me:**
+
+[📧 Email](mailto:szymon.myrta@gmail.com){.btn-primary-large}
+[💼 LinkedIn](https://linkedin.com/in/myrta/){.btn-secondary-large}
+[📋 ORCID](https://orcid.org/0000-0003-1714-6105){.btn-secondary}
 :::

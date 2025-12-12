@@ -1,6 +1,6 @@
 /* ============================================
    BIOINFORMATICS PORTFOLIO 2025
-   FINAL WORKING VERSION
+   CUSTOM CSS STYLESHEET
    ============================================ */
 
 :root {
@@ -54,6 +54,10 @@
   box-sizing: border-box;
 }
 
+*:not(.hero-title):not(.gradient-text-full) {
+  -webkit-text-fill-color: currentColor !important;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 16px;
@@ -78,7 +82,7 @@ body {
 }
 
 /* ============================================
-   TYPOGRAPHY - NO TRANSPARENT
+   TYPOGRAPHY - FIXED FONT SIZES
    ============================================ */
 
 h1, h2, h3, h4, h5, h6 {
@@ -92,8 +96,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 { font-size: clamp(2.5rem, 5vw, 4rem); }
 h2 { font-size: clamp(2rem, 4vw, 3rem); }
 h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
 
-/* Gradient titles - ONLY these should be transparent */
+/* Gradient titles */
 .hero-title {
   font-size: clamp(2rem, 4vw, 3.5rem);
   font-weight: 800;
@@ -101,18 +108,17 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
   margin-bottom: var(--spacing-sm);
   background: linear-gradient(135deg, var(--accent-green), var(--accent-blue), var(--accent-purple));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent !important;
   background-clip: text;
 }
 
 .section-title {
   text-align: center;
   margin-bottom: var(--spacing-lg);
-  background: linear-gradient(135deg, var(--accent-green), var(--accent-blue));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  color: var(--text-primary);
   position: relative;
+  padding-bottom: var(--spacing-sm);
 }
 
 .section-title::after {
@@ -126,25 +132,33 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
 }
 
 .cta-title {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
   margin-bottom: var(--spacing-md);
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.gradient-text-full {
   background: linear-gradient(135deg, var(--accent-green), var(--accent-blue));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent !important;
   background-clip: text;
 }
 
-/* Regular text - NEVER transparent */
+/* Regular text */
 p {
   margin-bottom: var(--spacing-sm);
   color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 .hero-subtitle {
-  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
   color: var(--text-secondary);
   font-weight: 400;
   margin-bottom: var(--spacing-md);
+  line-height: 1.6;
 }
 
 code {
@@ -152,7 +166,7 @@ code {
   background: var(--bg-tertiary);
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
-  font-size: 0.9em;
+  font-size: 0.875rem;
   color: var(--accent-blue);
 }
 
@@ -167,18 +181,34 @@ a:hover {
   text-shadow: var(--glow-green);
 }
 
-strong {
+strong, b {
   font-weight: 700;
   color: inherit;
+  font-size: inherit;
 }
 
-em {
+em, i {
   font-style: italic;
   color: inherit;
+  font-size: inherit;
+}
+
+ul, ol {
+  color: var(--text-secondary);
+  margin-left: 1.5rem;
+  margin-bottom: var(--spacing-sm);
+  font-size: 0.95rem;
+}
+
+li {
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 /* ============================================
-   NAVBAR
+   NAVBAR + HAMBURGER MENU
    ============================================ */
 
 .navbar {
@@ -201,6 +231,7 @@ em {
   font-weight: 500;
   transition: all 0.3s ease;
   margin: 0 0.5rem;
+  font-size: 1rem;
 }
 
 .navbar-nav .nav-link:hover {
@@ -217,9 +248,24 @@ em {
   box-shadow: var(--shadow-sm);
 }
 
-.navbar-nav .nav-item:last-child .nav-link:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-md);
+/* HAMBURGER MENU */
+.navbar-toggler {
+  border-color: var(--border-color);
+  padding: 0.5rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(166, 206, 57, 0.3);
+}
+
+/* Dark mode - white icon */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Light mode - dark icon */
+[data-theme="light"] .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(36, 41, 47, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 /* ============================================
@@ -299,6 +345,24 @@ em {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* ACTN3 Gene Badge */
+.actn3-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, rgba(166, 206, 57, 0.15), rgba(88, 166, 255, 0.15));
+  border: 1px solid var(--accent-green);
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--accent-green);
+  font-weight: 600;
+}
+
+.actn3-badge:hover {
+  transform: scale(1.05);
+  box-shadow: var(--glow-green);
+}
+
 /* Stats boxes */
 .hero-stats {
   display: grid;
@@ -332,7 +396,7 @@ em {
 
 .stat-item p {
   color: var(--text-secondary);
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   margin: 0;
 }
 
@@ -349,7 +413,7 @@ em {
   padding: 1rem 2rem;
   border-radius: 10px;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
   transition: all 0.3s ease;
   text-align: center;
   border: 2px solid transparent;
@@ -380,7 +444,7 @@ em {
 }
 
 .btn-primary-large, .btn-secondary-large {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding: 1.2rem 2.5rem;
 }
 
@@ -461,16 +525,20 @@ em {
 .problem-card h3 {
   color: var(--accent-green);
   margin-bottom: var(--spacing-sm);
+  font-size: 1.3rem;
 }
 
 .problem-card strong {
   display: block;
   color: var(--accent-red);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
 }
 
 .problem-card p {
   color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .section-services {
@@ -509,6 +577,13 @@ em {
 .service-card h3 {
   color: var(--accent-blue);
   margin-bottom: var(--spacing-sm);
+  font-size: 1.3rem;
+}
+
+.service-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .service-card ul {
@@ -519,8 +594,9 @@ em {
 .service-card li {
   padding-left: 1.5rem;
   position: relative;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
   color: var(--text-secondary);
+  font-size: 0.9rem;
 }
 
 .service-card li::before {
@@ -535,6 +611,7 @@ em {
   display: block;
   margin-top: var(--spacing-sm);
   color: var(--text-primary);
+  font-size: 0.9rem;
 }
 
 .cta-center {
@@ -575,12 +652,14 @@ em {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .skill-category p {
   margin-top: var(--spacing-sm);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
+  line-height: 1.6;
 }
 
 .skill-category strong {
@@ -588,8 +667,10 @@ em {
   color: var(--text-primary);
   margin-top: var(--spacing-sm);
   margin-bottom: 0.3rem;
+  font-size: 0.9rem;
 }
 
+/* RESEARCH IMPACT */
 .section-proof {
   padding: var(--spacing-xl) var(--spacing-lg);
   max-width: 1400px;
@@ -597,11 +678,10 @@ em {
 }
 
 .proof-stats {
-  display: flex;
-  justify-content: center;
-  gap: var(--spacing-lg);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-md);
   margin-bottom: var(--spacing-lg);
-  flex-wrap: wrap;
 }
 
 .proof-item {
@@ -610,7 +690,6 @@ em {
   background: var(--bg-secondary);
   border: 2px solid var(--border-color);
   border-radius: 12px;
-  min-width: 200px;
   transition: all 0.3s ease;
 }
 
@@ -622,19 +701,22 @@ em {
 
 .proof-item strong {
   display: block;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--accent-green);
   margin-bottom: 0.5rem;
 }
 
 .proof-item p {
   color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .publications-preview h3 {
   text-align: center;
   color: var(--accent-blue);
   margin-bottom: var(--spacing-md);
+  font-size: 1.5rem;
 }
 
 .pub-card {
@@ -655,13 +737,21 @@ em {
 .pub-card strong {
   display: block;
   color: var(--text-primary);
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
+  line-height: 1.4;
 }
 
 .pub-card em {
   color: var(--accent-blue);
   font-style: normal;
+  font-size: 0.95rem;
+}
+
+.pub-card p {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-top: 0.3rem;
 }
 
 .pub-link {
@@ -670,7 +760,7 @@ em {
   margin-right: 1rem;
   color: var(--accent-green);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   transition: all 0.2s ease;
 }
 
@@ -687,6 +777,11 @@ em {
   background: linear-gradient(135deg, rgba(166, 206, 57, 0.1), rgba(88, 166, 255, 0.1));
   border-radius: 24px;
   margin-bottom: var(--spacing-xl);
+}
+
+.section-cta-footer p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
 }
 
 .cta-buttons-footer {
@@ -723,11 +818,21 @@ em {
 .project-card h3 {
   color: var(--accent-green);
   margin-bottom: var(--spacing-sm);
+  font-size: 1.3rem;
+}
+
+.project-card h4 {
+  color: var(--accent-blue);
+  margin-top: var(--spacing-sm);
+  font-size: 1.1rem;
 }
 
 .project-card p, 
-.project-card strong {
+.project-card strong,
+.project-card ul,
+.project-card li {
   color: var(--text-secondary);
+  font-size: 0.95rem;
 }
 
 .project-image {
@@ -752,10 +857,25 @@ em {
 
 .contribution-item h3 {
   color: var(--accent-purple);
+  font-size: 1.2rem;
 }
 
 .contribution-item p {
   color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.services-quick-list {
+  background: var(--bg-secondary);
+  padding: var(--spacing-md);
+  border-radius: 12px;
+  border-left: 4px solid var(--accent-green);
+}
+
+.services-quick-list ul,
+.services-quick-list li {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
 }
 
 /* ============================================
@@ -766,6 +886,12 @@ em {
   text-align: center;
   padding: var(--spacing-lg);
   margin-bottom: var(--spacing-lg);
+}
+
+.about-hero p,
+.about-hero strong {
+  color: var(--text-secondary);
+  font-size: 1rem;
 }
 
 .profile-image {
@@ -793,6 +919,12 @@ em {
 
 .award-item strong {
   color: var(--accent-green);
+  font-size: 1.1rem;
+}
+
+.award-item p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
 }
 
 .motivation-section {
@@ -804,11 +936,14 @@ em {
 
 .motivation-section h3 {
   color: var(--accent-blue);
+  font-size: 1.3rem;
 }
 
 .motivation-section p, 
-.motivation-section ul {
+.motivation-section ul,
+.motivation-section li {
   color: var(--text-secondary);
+  font-size: 0.95rem;
 }
 
 .about-cta {
@@ -819,6 +954,11 @@ em {
   margin-top: var(--spacing-lg);
 }
 
+.about-cta p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
 /* ============================================
    CONTACT PAGE
    ============================================ */
@@ -827,6 +967,11 @@ em {
   text-align: center;
   padding: var(--spacing-lg);
   margin-bottom: var(--spacing-lg);
+}
+
+.contact-hero p {
+  color: var(--text-secondary);
+  font-size: 1rem;
 }
 
 .contact-grid {
@@ -846,10 +991,12 @@ em {
 .contact-card h3 {
   color: var(--accent-green);
   margin-bottom: var(--spacing-sm);
+  font-size: 1.2rem;
 }
 
 .contact-card p {
   color: var(--text-secondary);
+  font-size: 0.95rem;
 }
 
 .collaboration-types {
@@ -858,6 +1005,13 @@ em {
 
 .collaboration-types h3 {
   color: var(--accent-blue);
+  font-size: 1.3rem;
+}
+
+.collaboration-types p,
+.collaboration-types strong {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
 }
 
 .work-info {
@@ -866,15 +1020,18 @@ em {
   border-radius: 12px;
   border-left: 4px solid var(--accent-green);
   color: var(--text-secondary);
+  font-size: 0.95rem;
 }
 
 .faq-section h3 {
   color: var(--accent-green);
   margin-top: var(--spacing-md);
+  font-size: 1.1rem;
 }
 
 .faq-section p {
   color: var(--text-secondary);
+  font-size: 0.95rem;
 }
 
 .cta-final {
@@ -884,21 +1041,97 @@ em {
   border-radius: 16px;
 }
 
+.cta-final h3,
+.cta-final p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.pricing-disclaimer {
+  background: var(--bg-secondary);
+  padding: var(--spacing-md);
+  border-radius: 12px;
+  text-align: center;
+  border: 2px dashed var(--border-color);
+}
+
+.pricing-disclaimer p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+  margin: var(--spacing-lg) 0;
+}
+
+.metric-card {
+  background: var(--bg-secondary);
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  padding: var(--spacing-md);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.metric-card:hover {
+  border-color: var(--accent-green);
+  transform: scale(1.05);
+}
+
+.metric-card strong {
+  display: block;
+  font-size: 2rem;
+  color: var(--accent-green);
+  margin-bottom: 0.5rem;
+}
+
+.metric-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.expertise-list {
+  background: var(--bg-secondary);
+  padding: var(--spacing-lg);
+  border-radius: 16px;
+  margin: var(--spacing-md) 0;
+}
+
+.expertise-list h3 {
+  color: var(--accent-blue);
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.2rem;
+}
+
+.expertise-list p,
+.expertise-list ul,
+.expertise-list li {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
 /* ============================================
-   FOOTER - FIXED FOR THEME TOGGLE
+   FOOTER
    ============================================ */
 
 .page-footer {
   background: var(--bg-primary) !important;
   border-top: 1px solid var(--border-color);
   padding: var(--spacing-md) var(--spacing-lg);
-  color: var(--text-secondary);
+  color: var(--text-primary);
+  font-size: 0.9rem;
 }
 
 .page-footer p,
 .page-footer span,
-.page-footer div {
-  color: var(--text-secondary);
+.page-footer div,
+.page-footer td {
+  color: var(--text-primary);
+  font-size: 0.9rem;
 }
 
 .page-footer a {
@@ -937,6 +1170,10 @@ em {
   .problems-grid, .services-grid, .skills-matrix {
     grid-template-columns: 1fr;
   }
+  
+  .proof-stats {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -946,35 +1183,23 @@ em {
   }
   
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   
   .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
   }
   
   .hero-section {
-    grid-template-columns: 1fr;
-    text-align: center;
     padding: var(--spacing-lg) var(--spacing-sm);
-  }
-  
-  .hero-visual {
-    order: -1;
-    margin-bottom: var(--spacing-md);
-  }
-  
-  .hero-stats {
-    grid-template-columns: 1fr;
   }
   
   .stat-item strong {
     font-size: 2rem;
-  }
-  
-  .proof-stats {
-    flex-direction: column;
-    gap: var(--spacing-sm);
   }
 }
 
@@ -1042,13 +1267,6 @@ em {
   text-align: center;
 }
 
-.gradient-text {
-  background: linear-gradient(135deg, var(--accent-green), var(--accent-blue));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
 /* ============================================
    PRINT
    ============================================ */
@@ -1066,145 +1284,4 @@ em {
   .hero-section, .section-solve, .section-services, .section-skills, .section-proof {
     page-break-inside: avoid;
   }
-}
-
-/* ============================================
-   CRITICAL OVERRIDES - TEXT VISIBILITY FIX
-   Must be at END of file to override everything
-   ============================================ */
-
-/* Force remove transparent from ALL elements except gradient titles */
-body *:not(.hero-title):not(.section-title):not(.cta-title):not(.gradient-text) {
-  -webkit-text-fill-color: inherit !important;
-}
-
-/* Ensure all text has proper color */
-.hero-content,
-.hero-content *:not(.hero-title),
-.stat-item,
-.stat-item *,
-.problem-card,
-.problem-card *,
-.service-card,
-.service-card *,
-.skill-category,
-.skill-category *,
-.pub-card,
-.pub-card *,
-.proof-item,
-.proof-item *,
-.section-solve *,
-.section-services *,
-.section-skills *,
-.section-proof *,
-.portfolio-grid *,
-.contact-grid *,
-.about-hero *,
-.cta-buttons *,
-.cta-buttons-footer *,
-p, span, div, li, td, th {
-  color: inherit;
-}
-
-/* Specific color fixes */
-.stat-item strong {
-  color: var(--accent-green) !important;
-}
-
-.stat-item p {
-  color: var(--text-secondary) !important;
-}
-
-.problem-card h3 {
-  color: var(--accent-green) !important;
-}
-
-.problem-card strong {
-  color: var(--accent-red) !important;
-}
-
-.problem-card p {
-  color: var(--text-secondary) !important;
-}
-
-.service-card h3 {
-  color: var(--accent-blue) !important;
-}
-
-.service-card li {
-  color: var(--text-secondary) !important;
-}
-
-.skill-category h3 {
-  color: var(--accent-purple) !important;
-}
-
-.skill-category p {
-  color: var(--text-secondary) !important;
-}
-
-.proof-item strong {
-  color: var(--accent-green) !important;
-}
-
-.proof-item p {
-  color: var(--text-secondary) !important;
-}
-
-.pub-card strong {
-  color: var(--text-primary) !important;
-}
-
-.pub-card em {
-  color: var(--accent-blue) !important;
-}
-
-.btn-primary,
-.btn-primary-large {
-  color: var(--bg-primary) !important;
-}
-
-.btn-secondary,
-.btn-secondary-large {
-  color: var(--accent-green) !important;
-}
-
-.btn-secondary:hover,
-.btn-secondary-large:hover {
-  color: var(--bg-primary) !important;
-}
-
-/* Fix for emoji/icons in service cards */
-.service-icon {
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-/* Footer text visibility */
-.page-footer,
-.page-footer * {
-  color: var(--text-secondary) !important;
-}
-
-.page-footer a {
-  color: var(--accent-green) !important;
-}
-
-/* Ensure paragraphs are visible */
-p {
-  color: var(--text-secondary) !important;
-}
-
-/* Ensure headings are visible */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--text-primary) !important;
-}
-
-/* Exception for gradient headings */
-.hero-title,
-.section-title,
-.cta-title {
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
-  -webkit-background-clip: text !important;
 }

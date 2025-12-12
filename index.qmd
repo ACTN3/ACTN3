@@ -5,11 +5,15 @@ page-layout: custom
 
 ::: {.hero-section}
 ::: {.hero-content}
-# 🧬 Szymon Myrta {.hero-title}
+# Szymon Myrta {.hero-title}
 
 ## Bioinformatics Expert | 9+ Years | NGS & AI Workflows {.hero-subtitle}
 
 Transform your genomic data into **actionable insights** with reproducible pipelines and cutting-edge analysis.
+
+::: {.actn3-badge}
+⚡ Powered by the ACTN3 "Speed Gene" Philosophy — Fast, Efficient, High-Performance Bioinformatics
+:::
 
 ::: {.hero-stats}
 ::: {.stat-item}
@@ -21,7 +25,7 @@ Publications
 Years Experience
 :::
 ::: {.stat-item}
-**200+**  
+**500+**  
 NGS Datasets
 :::
 :::
@@ -29,7 +33,6 @@ NGS Datasets
 ::: {.cta-buttons}
 [💼 Hire Me](contact.qmd){.btn-primary} 
 [📂 View Portfolio](portfolio.qmd){.btn-secondary}
-[📄 Download CV](assets/cv/Szymon_Myrta_CV_2025.pdf){.btn-secondary download="Szymon_Myrta_CV_Bioinformatics.pdf"}
 :::
 
 :::
@@ -213,43 +216,46 @@ NGS Datasets
 :::
 :::
 
-<!-- Proof Section -->
+<!-- Proof Section - IMPROVED -->
 ::: {.section-proof}
 ## 📚 Research Impact {.section-title}
 
 ::: {.proof-stats}
 ::: {.proof-item}
-**6** Publications  
-*Top-tier journals*
+**6**  
+Publications in Top-Tier Journals
 :::
 ::: {.proof-item}
-**iScience, Clinical Cancer Research**  
-*Cancer Immunology Research*
+**800+**  
+Patient Samples Analyzed
 :::
 ::: {.proof-item}
-**EMBO Molecular Medicine**  
-*bioRxiv preprint*
+**160K**  
+sgRNAs in CRISPR Screens
 :::
 :::
 
 ::: {.publications-preview}
-### Featured Work
+### Featured Publications
 
 ::: {.pub-card}
 **🧬 Transcription factor Zfx regulates tumor immune evasion**  
-*iScience (2025)* | **Role:** CRISPR screen (160K sgRNAs), ChIP-seq, TCGA survival  
+*iScience (2025)*  
+**Role:** CRISPR screen analysis (160K sgRNAs), ChIP-seq, TCGA survival models  
 [📄 Read Paper](https://doi.org/10.1016/j.isci.2025.113842){.pub-link}
 :::
 
 ::: {.pub-card}
 **🧬 Transcriptional subtypes in lung adenocarcinoma**  
-*Clinical Cancer Research (2021)* | **Role:** NMF discovery, 113-gene PAM classifier  
+*Clinical Cancer Research (2021)*  
+**Role:** NMF subtype discovery, 113-gene PAM classifier (87-91% accuracy)  
 [📄 Read Paper](https://doi.org/10.1158/1078-0432.CCR-20-1835){.pub-link} | [💻 Code](https://github.com/anneleendaemen/LUAD.subtypes){.pub-link}
 :::
 
 ::: {.pub-card}
 **🧬 ERBB signalling in KRAS-driven lung cancer**  
-*bioRxiv (2023)* | **Role:** scRNA-seq (10X, 22 clusters), PANTHER enrichment  
+*bioRxiv (2023)*  
+**Role:** scRNA-seq analysis (10X, 22 clusters), PANTHER enrichment  
 [📄 Read Paper](https://doi.org/10.1101/2023.07.24.550274){.pub-link}
 :::
 
