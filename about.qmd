@@ -13,7 +13,7 @@ I transform complex genomic data into actionable insights through reproducible p
 cutting-edge analysis, and AI-powered workflows.
 
 ::: {.actn3-badge}
-⚡ Named after the ACTN3 "Speed Gene" — symbolizing fast, efficient, high-performance bioinformatics
+⚡ Named after the ACTN3 "Speed Gene" - symbolizing fast, efficient, high-performance bioinformatics
 :::
 :::
 
@@ -66,12 +66,13 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 ------------------------------------------------------------------------
 
 ### 🎓 **Visiting Student** | University of Cambridge
-
 *May 2013 - September 2013 | Anne McLaren Laboratory*
 
-**Project:** Computational analysis of long non-coding RNAs during neural differentiation
-**Supervisor:** Dr. Mark Kotter
+**Project:** Computational analysis of long non-coding RNAs during neural differentiation  
+**Supervisor:** Dr. Mark Kotter  
 **Methods:** R-based microarray analysis in stem cell biology
+
+---
 
 ```{=html}
 <!-- ---
