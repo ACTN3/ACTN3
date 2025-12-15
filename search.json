@@ -53,7 +53,7 @@
     "href": "index.html#bioinformatics-expert-9-years-ngs-ai-workflows",
     "title": "Szymon Myrta | Bioinformatics Expert",
     "section": "Bioinformatics Expert | 9+ Years | NGS & AI Workflows",
-    "text": "Bioinformatics Expert | 9+ Years | NGS & AI Workflows\nTransform your genomic data into actionable insights with reproducible pipelines and cutting-edge analysis.\n\n⚡ Powered by the ACTN3 “Speed Gene” Philosophy — Fast, Efficient, High-Performance Bioinformatics\n\n\n\n6\nPublications\n\n\n9+\nYears Experience\n\n\n500+\nNGS Datasets\n\n\n\n💼 Hire Me 📂 View Portfolio"
+    "text": "Bioinformatics Expert | 9+ Years | NGS & AI Workflows\nTransform your genomic data into actionable insights with reproducible pipelines and cutting-edge analysis.\n\n⚡ Powered by the ACTN3 “Speed Gene” Philosophy - Fast, Efficient, High-Performance Bioinformatics\n\n\n\n9+\nYears Experience\n\n\n500+\nNGS Datasets Analyzed\n\n\n6\nPublications\n\n\n\n💼 Hire Me 📂 View Portfolio"
   },
   {
     "objectID": "index.html#what-problems-do-i-solve",
@@ -95,35 +95,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Szymon Myrta\n\n\nBioinformatics Expert | 9+ Years | Founder of ACTN3 Bioinformatics\nI transform complex genomic data into actionable insights through reproducible pipelines,\ncutting-edge analysis, and AI-powered workflows.\n\n⚡ Named after the ACTN3 “Speed Gene” — symbolizing fast, efficient, high-performance bioinformatics"
+    "text": "Szymon Myrta\n\n\nBioinformatics Expert | 9+ Years | Founder of ACTN3 Bioinformatics\nI transform complex genomic data into actionable insights through reproducible pipelines,\ncutting-edge analysis, and AI-powered workflows.\n\n⚡ Named after the ACTN3 “Speed Gene” - symbolizing fast, efficient, high-performance bioinformatics"
   },
   {
     "objectID": "about.html#hi-im-szymon",
     "href": "about.html#hi-im-szymon",
     "title": "About",
     "section": "",
-    "text": "Szymon Myrta\n\n\nBioinformatics Expert | 9+ Years | Founder of ACTN3 Bioinformatics\nI transform complex genomic data into actionable insights through reproducible pipelines,\ncutting-edge analysis, and AI-powered workflows.\n\n⚡ Named after the ACTN3 “Speed Gene” — symbolizing fast, efficient, high-performance bioinformatics"
+    "text": "Szymon Myrta\n\n\nBioinformatics Expert | 9+ Years | Founder of ACTN3 Bioinformatics\nI transform complex genomic data into actionable insights through reproducible pipelines,\ncutting-edge analysis, and AI-powered workflows.\n\n⚡ Named after the ACTN3 “Speed Gene” - symbolizing fast, efficient, high-performance bioinformatics"
   },
   {
     "objectID": "about.html#professional-journey",
     "href": "about.html#professional-journey",
     "title": "About",
     "section": "💼 Professional Journey",
-    "text": "💼 Professional Journey\n\n🔬 Bioinformatician | Roche (via Avenga)\nMay 2017 - Present | Remote\nLeading bioinformatics analysis for oncology and immunology research projects at one of the world’s largest pharmaceutical companies.\nKey Achievements: - 📚 Co-authored 6 publications in top-tier journals (iScience, Clinical Cancer Research, Cancer Immunology Research, EMBO Molecular Medicine) - 🧬 Analyzed &gt;800 patient samples across multiple clinical trials (OAK, POPLAR, gp28363) - 🔬 Processed ~160,000 sgRNAs in genome-wide CRISPR screens - 📊 Developed 113-gene classifier with 87-91% cross-cohort validation - 🤖 Built ML-ready datasets from scRNA-seq CRISPR perturbation screens\nTechnical Focus: - NGS analysis (RNA-seq, scRNA-seq, ChIP-seq, TCR/BCR-seq, WES/WGS) - CRISPR/ORF screen analysis - Machine learning & predictive modeling - Multi-omics data integration (TCGA, GEO, clinical trials) - Pipeline development (Snakemake, Docker, HPC)\n\n\n\n💻 LIMS Developer & Bioinformatician | Ardigen\nSeptember 2015 - April 2017 | Kraków, Poland\n\nDesigned & maintained LIMS software (StarLIMS, JScript.NET, T-SQL)\nDeveloped R package supporting drug discovery workflows\nIntegrated bioinformatics tools with laboratory information systems\n\n\n\n\n🧪 LIMS Developer & ISO Coordinator | Selvita\nAugust 2014 - August 2015 | Kraków, Poland\n\nLed StarLIMS implementation in collaboration with Abbott\nCoordinated QA for ISO compliance during system deployment\nBridge between IT, lab operations, and quality assurance\n\n\n\n\n🎓 Visiting Student | University of Cambridge\nMay 2013 - September 2013 | Anne McLaren Laboratory\nProject: Computational analysis of long non-coding RNAs during neural differentiation\nSupervisor: Dr. Mark Kotter\nMethods: R-based microarray analysis in stem cell biology"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "🎓 Education",
-    "text": "🎓 Education\n\n🧬 MSc Molecular Medicine | Cranfield University, UK (2012-2013)\nThesis: The role of long non-coding RNAs in neural cell specification\nMethods: Microarray data analysis using R/Bioconductor\n\n\n💻 MSc Biotechnology (spec.: Bioinformatics) | Silesian University of Technology, Poland (2012-2013)\nGrade: 5.0/5.0 (Very Good) | Average: 4.63/5.0\n\n\n🧪 BSc Biotechnology (spec.: Bioinformatics) | Silesian University of Technology, Poland (2007-2012)\n\n\n💼 Postgraduate: Business in Biotechnology | Jagiellonian University, Poland (2014-2015)"
-  },
-  {
-    "objectID": "about.html#awards-recognition",
-    "href": "about.html#awards-recognition",
-    "title": "About",
-    "section": "🏆 Awards & Recognition",
-    "text": "🏆 Awards & Recognition\n\n\n🎓 Rector’s Scholarships\n2011, 2012, 2013\nBest students award\n\n\n⚡ Sports Scholarships\n2008, 2009, 2010\nAthletics performance"
+    "text": "💼 Professional Journey\n\n🔬 Bioinformatician | Roche (via Avenga)\nMay 2017 - Present | Remote\nLeading bioinformatics analysis for oncology and immunology research projects at one of the world’s largest pharmaceutical companies.\nKey Achievements:\n\n📚 Co-authored 6 publications in top-tier journals (iScience, Clinical Cancer Research, Cancer Immunology Research, EMBO Molecular Medicine)\n🧬 Analyzed &gt;800 patient samples across multiple clinical trials (OAK, POPLAR, gp28363)\n🔬 Processed ~160,000 sgRNAs in genome-wide CRISPR screens\n📊 Developed 113-gene classifier with 87-91% cross-cohort validation\n🤖 Built ML-ready datasets from scRNA-seq CRISPR perturbation screens\n\nTechnical Focus:\n\nNGS analysis (RNA-seq, scRNA-seq, ChIP-seq, TCR/BCR-seq, WES/WGS)\nCRISPR/ORF screen analysis\nMachine learning & predictive modeling\nMulti-omics data integration (TCGA, GEO, clinical trials)\nPipeline development (Snakemake, Docker, HPC)\n\n\n\n\n💻 LIMS Developer & Bioinformatician | Ardigen\nSeptember 2015 - April 2017 | Kraków, Poland\n\nDesigned & maintained LIMS software (StarLIMS, JScript.NET, T-SQL)\nDeveloped R package supporting drug discovery workflows\nIntegrated bioinformatics tools with laboratory information systems\n\n\n\n\n🧪 LIMS Developer & ISO Coordinator | Selvita\nAugust 2014 - August 2015 | Kraków, Poland\n\nLed StarLIMS implementation in collaboration with Abbott\nCoordinated QA for ISO compliance during system deployment\nBridge between IT, lab operations, and quality assurance\n\n\n\n\n🎓 Visiting Student | University of Cambridge\nMay 2013 - September 2013 | Anne McLaren Laboratory\nProject: Computational analysis of long non-coding RNAs during neural differentiation\nSupervisor: Dr. Mark Kotter\nMethods: R-based microarray analysis in stem cell biology"
   },
   {
     "objectID": "about.html#technical-skills",
