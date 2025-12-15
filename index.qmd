@@ -12,21 +12,21 @@ page-layout: custom
 Transform your genomic data into **actionable insights** with reproducible pipelines and cutting-edge analysis.
 
 ::: {.actn3-badge}
-⚡ Powered by the ACTN3 "Speed Gene" Philosophy — Fast, Efficient, High-Performance Bioinformatics
+⚡ Powered by the ACTN3 "Speed Gene" Philosophy - Fast, Efficient, High-Performance Bioinformatics
 :::
 
 ::: {.hero-stats}
-::: {.stat-item}
-**6**  
-Publications
-:::
 ::: {.stat-item}
 **9+**  
 Years Experience
 :::
 ::: {.stat-item}
 **500+**  
-NGS Datasets
+NGS Datasets Analyzed
+:::
+::: {.stat-item}
+**6**  
+Publications
 :::
 :::
 

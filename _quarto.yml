@@ -72,14 +72,14 @@ format:
           <meta property="og:url" content="https://actn3.github.io/ACTN3/">
           <meta property="og:title" content="Szymon Myrta | Bioinformatics Expert">
           <meta property="og:description" content="Transform your genomic data into actionable insights with reproducible pipelines and cutting-edge analysis">
-          <meta property="og:image" content="https://actn3.github.io/ACTN3/assets/images/og-preview.png">
+          <meta property="og:image" content="https://actn3.github.io/ACTN3/assets/images/og-preview.jpg">
           
           <!-- Twitter -->
           <meta name="twitter:card" content="summary_large_image">
           <meta name="twitter:url" content="https://actn3.github.io/ACTN3/">
           <meta name="twitter:title" content="Szymon Myrta | Bioinformatics Expert">
           <meta name="twitter:description" content="Transform your genomic data into actionable insights with reproducible pipelines and cutting-edge analysis">
-          <meta name="twitter:image" content="https://actn3.github.io/ACTN3/assets/images/og-preview.png">
+          <meta name="twitter:image" content="https://actn3.github.io/ACTN3/assets/images/og-preview.jpg">
           
           <!-- Schema.org Structured Data -->
           <script type="application/ld+json">

@@ -17,57 +17,64 @@ cutting-edge analysis, and AI-powered workflows.
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ## 💼 Professional Journey {.section-title}
 
 ### 🔬 **Bioinformatician** | Roche (via Avenga)
+
 *May 2017 - Present | Remote*
 
 Leading bioinformatics analysis for oncology and immunology research projects at one of the world's largest pharmaceutical companies.
 
 **Key Achievements:**
-- 📚 Co-authored **6 publications** in top-tier journals (iScience, Clinical Cancer Research, Cancer Immunology Research, EMBO Molecular Medicine)
-- 🧬 Analyzed >**800 patient samples** across multiple clinical trials (OAK, POPLAR, gp28363)
-- 🔬 Processed **~160,000 sgRNAs** in genome-wide CRISPR screens
-- 📊 Developed **113-gene classifier** with 87-91% cross-cohort validation
-- 🤖 Built **ML-ready datasets** from scRNA-seq CRISPR perturbation screens
+
+-   📚 Co-authored **6 publications** in top-tier journals (iScience, Clinical Cancer Research, Cancer Immunology Research, EMBO Molecular Medicine)
+-   🧬 Analyzed >**800 patient samples** across multiple clinical trials (OAK, POPLAR, gp28363)
+-   🔬 Processed **~160,000 sgRNAs** in genome-wide CRISPR screens
+-   📊 Developed **113-gene classifier** with 87-91% cross-cohort validation
+-   🤖 Built **ML-ready datasets** from scRNA-seq CRISPR perturbation screens
 
 **Technical Focus:**
-- NGS analysis (RNA-seq, scRNA-seq, ChIP-seq, TCR/BCR-seq, WES/WGS)
-- CRISPR/ORF screen analysis
-- Machine learning & predictive modeling
-- Multi-omics data integration (TCGA, GEO, clinical trials)
-- Pipeline development (Snakemake, Docker, HPC)
 
----
+-   NGS analysis (RNA-seq, scRNA-seq, ChIP-seq, TCR/BCR-seq, WES/WGS)
+-   CRISPR/ORF screen analysis
+-   Machine learning & predictive modeling
+-   Multi-omics data integration (TCGA, GEO, clinical trials)
+-   Pipeline development (Snakemake, Docker, HPC)
+
+------------------------------------------------------------------------
 
 ### 💻 **LIMS Developer & Bioinformatician** | Ardigen
+
 *September 2015 - April 2017 | Kraków, Poland*
 
-- Designed & maintained LIMS software (StarLIMS, JScript.NET, T-SQL)
-- Developed R package supporting drug discovery workflows
-- Integrated bioinformatics tools with laboratory information systems
+-   Designed & maintained LIMS software (StarLIMS, JScript.NET, T-SQL)
+-   Developed R package supporting drug discovery workflows
+-   Integrated bioinformatics tools with laboratory information systems
 
----
+------------------------------------------------------------------------
 
 ### 🧪 **LIMS Developer & ISO Coordinator** | Selvita
+
 *August 2014 - August 2015 | Kraków, Poland*
 
-- Led StarLIMS implementation in collaboration with Abbott
-- Coordinated QA for ISO compliance during system deployment
-- Bridge between IT, lab operations, and quality assurance
+-   Led StarLIMS implementation in collaboration with Abbott
+-   Coordinated QA for ISO compliance during system deployment
+-   Bridge between IT, lab operations, and quality assurance
 
----
+------------------------------------------------------------------------
 
 ### 🎓 **Visiting Student** | University of Cambridge
+
 *May 2013 - September 2013 | Anne McLaren Laboratory*
 
-**Project:** Computational analysis of long non-coding RNAs during neural differentiation  
-**Supervisor:** Dr. Mark Kotter  
+**Project:** Computational analysis of long non-coding RNAs during neural differentiation
+**Supervisor:** Dr. Mark Kotter
 **Methods:** R-based microarray analysis in stem cell biology
 
----
+```{=html}
+<!-- ---
 
 ## 🎓 Education {.section-title}
 
@@ -100,14 +107,16 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 *Athletics performance*
 :::
 
-:::
+::: -->
+```
 
----
+------------------------------------------------------------------------
 
 ## 🛠️ Technical Skills {.section-title}
 
 ### **Core Bioinformatics**
-```r
+
+``` r
 ✓ RNA-seq: limma-voom, edgeR, DESeq2, HTSeqGenie, GSNAP
 ✓ scRNA-seq: Seurat, Scanpy, UMAP, cell type annotation
 ✓ CRISPR screens: crisprVerse, MAGeCK, TMM normalization
@@ -117,7 +126,8 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 ```
 
 ### **Machine Learning & Statistics**
-```r
+
+``` r
 ✓ Unsupervised: Consensus NMF, hierarchical clustering, PCA
 ✓ Supervised: PAM, caret, feature engineering, CV design
 ✓ Survival analysis: Cox models, Kaplan-Meier, survfit
@@ -125,7 +135,8 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 ```
 
 ### **Engineering & Automation**
-```bash
+
+``` bash
 ✓ Pipelines: Snakemake, Nextflow, Bash scripting
 ✓ Reproducibility: RMarkdown, Quarto, literate programming
 ✓ Version control: Git, GitHub/GitLab, CI/CD
@@ -134,63 +145,60 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 ```
 
 ### **Visualization & Reporting**
-```r
+
+``` r
 ✓ Static: ggplot2, ComplexHeatmap, volcano plots, survival curves
 ✓ Interactive: Shiny apps, plotly, custom dashboards
 ✓ Reports: Quarto websites, dynamic RMarkdown, GitHub Pages
 ```
 
 ### **Data Sources & Integration**
-```bash
+
+``` bash
 ✓ Public: TCGA, GEO, EGA, SRA, cBioPortal, FoundationOne
 ✓ Clinical: OAK/POPLAR trials, patient stratification
 ✓ Imaging: HALO, QuPath, ImageJ quantification
 ✓ Platforms: Illumina (HiSeq/NovaSeq), 10X Genomics, Affymetrix
 ```
 
----
+------------------------------------------------------------------------
 
 ## 🌍 Languages {.section-title}
 
-- 🇬🇧 **English:** Fluent - Scientific communication, publications, international teams
-- 🇵🇱 **Polish:** Native
+-   🇬🇧 **English:** Fluent - Scientific communication, publications, international teams
+-   🇵🇱 **Polish:** Native
 
----
+------------------------------------------------------------------------
 
 ## 💡 What Drives Me {.section-title}
 
 ::: {.motivation-section}
-
 ### 🚀 **Professional Interests (2025 & Beyond)**
 
-- 🤖 **AI in Bioinformatics:** LLM-assisted analysis, automated QC, AI-powered variant calling
-- 🧬 **Multi-Modal Omics:** Spatial transcriptomics, single-cell + proteomics + imaging integration
-- ⚙️ **Workflow Engineering:** Positron IDE + Quarto, Nextflow DSL2, cloud-native pipelines
-- 🎯 **CRISPR & Functional Genomics:** Perturb-seq, base/prime editor screens, transcriptome engineering
-- 🏥 **Precision Medicine:** Real-time clinical decision support, pharmacogenomics, liquid biopsy
+-   🤖 **AI in Bioinformatics:** LLM-assisted analysis, automated QC, AI-powered variant calling
+-   🧬 **Multi-Modal Omics:** Spatial transcriptomics, single-cell + proteomics + imaging integration
+-   ⚙️ **Workflow Engineering:** Positron IDE + Quarto, Nextflow DSL2, cloud-native pipelines
+-   🎯 **CRISPR & Functional Genomics:** Perturb-seq, base/prime editor screens, transcriptome engineering
+-   🏥 **Precision Medicine:** Real-time clinical decision support, pharmacogenomics, liquid biopsy
 
 ### 🏃 **Personal Passions**
 
-- 📚 Continuous learning & skill development
-- 🏃 Licensed athletics referee
-- 💪 Healthy lifestyle & professional athletics training
-- 🧘 Work-life balance advocacy
-
+-   📚 Continuous learning & skill development
+-   🏃 Licensed athletics referee
+-   💪 Healthy lifestyle & professional athletics training
+-   🧘 Work-life balance advocacy
 :::
 
----
+------------------------------------------------------------------------
 
 ## 🤝 Let's Work Together {.section-title}
 
 ::: {.about-cta}
-
 I'm passionate about turning complex genomic data into discoveries that matter.
 
 Whether you're a **biotech startup**, **academic lab**, **pharma company**, or **CRO**, let's discuss how I can help accelerate your research with cutting-edge bioinformatics solutions.
 
 **Connect with me:**
 
-[📧 Email](mailto:szymon.myrta@gmail.com){.btn-primary-large}
-[💼 LinkedIn](https://linkedin.com/in/myrta/){.btn-secondary-large}
-[📋 ORCID](https://orcid.org/0000-0003-1714-6105){.btn-secondary}
+[📧 Email](mailto:szymon.myrta@gmail.com){.btn-primary-large} [💼 LinkedIn](https://linkedin.com/in/myrta/){.btn-secondary-large} [📋 ORCID](https://orcid.org/0000-0003-1714-6105){.btn-secondary}
 :::
