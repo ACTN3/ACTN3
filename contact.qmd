@@ -59,7 +59,7 @@ Best for: Publication history, citation metrics
 **Duration:** 2-20 weeks depending on scope  
 **Examples:** RNA-seq analysis, scRNA-seq clustering, CRISPR screen hit identification
 
-[📋 View Service Details](index.qmd#services)
+[📋&nbsp;View Service Details](index.qmd#services)
 
 ---
 
@@ -67,7 +67,7 @@ Best for: Publication history, citation metrics
 **Duration:** 4-12 weeks  
 **Deliverables:** Snakemake/Nextflow workflows, Docker containers, documentation
 
-[💻 See Portfolio Examples](portfolio.qmd)
+[💻&nbsp;See Portfolio Examples](portfolio.qmd)
 
 ---
 
@@ -75,7 +75,7 @@ Best for: Publication history, citation metrics
 **Duration:** 6-16 weeks  
 **Deliverables:** ML-ready datasets, trained models, deployment scripts
 
-[🚀 Learn More](index.qmd#services)
+[🚀&nbsp;Learn More](index.qmd#services)
 
 ---
 
@@ -83,7 +83,7 @@ Best for: Publication history, citation metrics
 **Duration:** 2-6 weeks  
 **Deliverables:** Methods sections, supplementary analyses, publication-quality figures
 
-[📚 View My Publications](publications.qmd)
+[📚&nbsp;View My Publications](publications.qmd)
 
 ---
 
@@ -142,9 +142,9 @@ Yes! I can write Methods sections, create supplementary analyses, and prepare pu
 Yes, I offer custom workshops on R/Bioconductor, reproducible workflows, and NGS best practices.
 
 ### What is your typical project timeline?
-- **Small projects** (RNA-seq analysis): 2-4 weeks
-- **Medium projects** (scRNA-seq, pipelines): 4-8 weeks
-- **Large projects** (multi-omics, ML): 8-16 weeks
+▸ **Small projects** (RNA-seq analysis): 2-4 weeks  
+▸ **Medium projects** (scRNA-seq, pipelines): 4-8 weeks  
+▸ **Large projects** (multi-omics, ML): 8-16 weeks
 
 ### How do you ensure reproducibility?
 All analyses include version-controlled code (Git), containerization (Docker), detailed documentation (Quarto/RMarkdown), and comprehensive reports with session info.
@@ -163,7 +163,7 @@ All analyses include version-controlled code (Git), containerization (Docker), d
 **LinkedIn?** Connect at [linkedin.com/in/myrta/](https://linkedin.com/in/myrta/)  
 **Company inquiries?** Contact [kontakt@actn3.pl](mailto:kontakt@actn3.pl)
 
-[📧 Email Me Now](mailto:szymon.myrta@gmail.com){.btn-primary-large}
-[💼 LinkedIn Message](https://linkedin.com/in/myrta/){.btn-secondary-large}
+[📧&nbsp;Email Me Now](mailto:szymon.myrta@gmail.com){.btn-primary-large}
+[💼&nbsp;LinkedIn Message](https://linkedin.com/in/myrta/){.btn-secondary-large}
 
 :::

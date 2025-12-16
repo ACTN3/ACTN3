@@ -15,11 +15,12 @@ title: "Publications"
 **Authors:** Kaufmann U, Wang J, Callow M, Fortin J, **Myrta S**, Nickles D, et al.
 
 #### Bioinformatics Contributions:
-- **CRISPR Screen Analysis:** Processed ~160,000 sgRNAs using crisprVerse (screenCounter), TMM normalization on non-essential genes, limma-voom with robust empirical Bayes
-- **RNA-seq (Bulk):** HTSeqGenie pipeline, GSNAP alignment (GRCh38), differential expression (edgeR, voom/limma), pathway enrichment (MSigDB Hallmark)
-- **ChIP-seq Integration:** Public data analysis (GEO: GSE102616), BWA alignment, promoter enrichment (ZFX binding sites in 4 cancer cell lines)
-- **Clinical Data Analysis:** TCGA integration, Cox proportional hazards models for survival, correlation analysis (ZFX expression vs patient outcomes)
-- **Visualization:** Volcano plots, heatmaps, Kaplan-Meier curves, scatter plots
+
+▸ **CRISPR Screen Analysis:** Processed ~160,000 sgRNAs using crisprVerse (screenCounter), TMM normalization on non-essential genes, limma-voom with robust empirical Bayes  
+▸ **RNA-seq (Bulk):** HTSeqGenie pipeline, GSNAP alignment (GRCh38), differential expression (edgeR, voom/limma), pathway enrichment (MSigDB Hallmark)  
+▸ **ChIP-seq Integration:** Public data analysis (GEO: GSE102616), BWA alignment, promoter enrichment (ZFX binding sites in 4 cancer cell lines)  
+▸ **Clinical Data Analysis:** TCGA integration, Cox proportional hazards models for survival, correlation analysis (ZFX expression vs patient outcomes)  
+▸ **Visualization:** Volcano plots, heatmaps, Kaplan-Meier curves, scatter plots
 
 **Key Findings:** Identified ZFX as biomarker for immunotherapy response; ZFX regulates apoptosis pathway genes including CASP3
 
@@ -34,11 +35,12 @@ title: "Publications"
 **Authors:** Besla R, Penuel E, Rosario GD, Cosino E, **Myrta S**, Polson AG, et al.
 
 #### Bioinformatics Contributions:
-- **RNA-seq (Sorted NK Cells):** Smart-Seq V4 library prep (2ng input), HTSeqGenie processing, edgeR (logCPM), voom/limma differential expression (baseline vs 24h TDB)
-- **Gene Set Enrichment:** fgsea with MSigDB collections (c2, c5, c7), pathway visualization (IFN, TNF, interleukin pathways)
-- **Cytokine Analysis:** Luminex multiplex data integration (Human CD8+ T-cell 17+plex panel)
-- **Flow Cytometry Data:** FlowJo analysis support, gating strategy optimization
-- **Visualization:** Heat maps, bar graphs with multiple comparisons, pathway network diagrams
+
+▸ **RNA-seq (Sorted NK Cells):** Smart-Seq V4 library prep (2ng input), HTSeqGenie processing, edgeR (logCPM), voom/limma differential expression (baseline vs 24h TDB)  
+▸ **Gene Set Enrichment:** fgsea with MSigDB collections (c2, c5, c7), pathway visualization (IFN, TNF, interleukin pathways)  
+▸ **Cytokine Analysis:** Luminex multiplex data integration (Human CD8+ T-cell 17+plex panel)  
+▸ **Flow Cytometry Data:** FlowJo analysis support, gating strategy optimization  
+▸ **Visualization:** Heat maps, bar graphs with multiple comparisons, pathway network diagrams
 
 **Key Findings:** TDB treatment activates NK cells via IL2/IL10 axis; enhanced ADCC observed in vitro and in vivo
 
@@ -53,12 +55,12 @@ title: "Publications"
 **Authors:** Laing S, Kruspig B, Shaw R, Officer-Jones L, Edwards S, McKinven D, **Myrta S**, et al.
 
 #### Bioinformatics Contributions:
-- **Bulk RNA-seq:** Multiple timepoints (8w, 12w, endpoint), Metacore GeneGO pathway analysis, differential expression
-- **Single-Cell RNA-seq:** 10X Genomics Chromium (40,000 cells/sample), 22 clusters identified using ImmGen databrowser, PANTHER overrepresentation analysis
-- **Pathway Enrichment:** EGFR/ERBB signaling (33.5x enrichment, FDR 1.06e-2), immune evasion pathways
-- **Whole Exome Sequencing:** COSMIC signature analysis (APOBEC mutagenesis signatures)
-- **Image Analysis Support:** HALO/QuPath workflows for TMA quantification (2653 biopsy cores)
-- **Visualization:** UMAPs, violin plots, correlation plots (AREG vs p-ERBB2), heatmaps
+
+▸ **Bulk RNA-seq:** Multiple timepoints (8w, 12w, endpoint), Metacore GeneGO pathway analysis, differential expression  
+▸ **Single-Cell RNA-seq:** 10X Genomics Chromium (40,000 cells/sample), 22 clusters identified using ImmGen databrowser, PANTHER overrepresentation analysis  
+▸ **Pathway Enrichment:** EGFR/ERBB signaling (33.5x enrichment, FDR 1.06e-2), immune evasion pathways  
+▸ **Whole Exome Sequencing:** COSMIC signature analysis (APOBEC mutagenesis signatures)  
+▸ **Visualization:** UMAPs, violin plots, correlation plots (AREG vs p-ERBB2), heatmaps
 
 **Key Findings:** ERBB ligand upregulation (AREG, HBEGF) mediates immune escape post-αPD-1 treatment; Afatinib restores immune infiltration
 
@@ -71,14 +73,15 @@ title: "Publications"
 **Authors:** Daemen A, Cooper JE, **Myrta S**, Wongchenko MJ, Lin E, Long JE, Foreman O, Junttila MR, et al.
 
 #### Bioinformatics Contributions:
-- **Subtype Discovery:** Consensus nonnegative matrix factorization (NMF) across >800 patients (TCGA + clinical trials)
-- **Classifier Development:** PAM (Prediction Analysis for Microarrays) - 113-gene signature with 87-91% cross-cohort validation
-- **Multi-Cohort Integration:** TCGA, OAK trial (Phase III), POPLAR, gp28363 trials; harmonization of batch effects
-- **Gene Set Enrichment:** Camera method (limma) + MSigDB Hallmark collection
-- **Drug Response Modeling:** Spearman correlations (subtype score vs 526 compounds, 89 cell lines), ANOVA for predictive modeling
-- **Survival Analysis:** survfit, Cox proportional hazards models, interaction terms (STK11 × subtype)
-- **Preclinical Models:** 175 cell lines, 232 PDX, 108 GEMM tumors analyzed for subtype concordance
-- **Visualization:** Heatmaps (z-scored, saturated ±1.5), Kaplan-Meier curves, bar graphs, volcano plots
+
+▸ **Subtype Discovery:** Consensus nonnegative matrix factorization (NMF) across >800 patients (TCGA + clinical trials)  
+▸ **Classifier Development:** PAM (Prediction Analysis for Microarrays) - 113-gene signature with 87-91% cross-cohort validation  
+▸ **Multi-Cohort Integration:** TCGA, OAK trial (Phase III), POPLAR, gp28363 trials; harmonization of batch effects  
+▸ **Gene Set Enrichment:** Camera method (limma) + MSigDB Hallmark collection  
+▸ **Drug Response Modeling:** Spearman correlations (subtype score vs 526 compounds, 89 cell lines), ANOVA for predictive modeling  
+▸ **Survival Analysis:** survfit, Cox proportional hazards models, interaction terms (STK11 × subtype)  
+▸ **Preclinical Models:** 175 cell lines, 232 PDX, 108 GEMM tumors analyzed for subtype concordance  
+▸ **Visualization:** Heatmaps (z-scored, saturated ±1.5), Kaplan-Meier curves, bar graphs, volcano plots
 
 **Key Findings:** Identified 3 subtypes (MUC, PRO, MES) with differential MEK inhibitor response; MES tumors benefit most from cobimetinib
 
@@ -93,13 +96,12 @@ title: "Publications"
 **Authors:** Syed YA, Baer A, Hofer MP, González GA, Rundle J, **Myrta S**, et al.
 
 #### Bioinformatics Contributions:
-- **Microarray Analysis:** Rat Exon 1.0ST array (Affymetrix), RMA normalization, limma (moderated t-test), FDR correction (Storey & Tibshirani)
-- **Differential Expression:** OPC differentiation timecourse (0h, 4h, 12h); identified Mapk pathway regulation
-- **qRT-PCR Validation:** TaqMan assays, normalization to β2-microglobulin
-- **Western Blot Quantification:** Densitometry (ROD) for p-Erk1/2, p-p38Mapk, p-Creb1
-- **Image Quantification Workflows:** ImageJ protocols for ISH (cells/mm²), IHC (automated Ki67/Olig2 counting), EM (G-ratio calculations)
-- **Quality Control:** Linear regression to exclude lesion size effects (>0.4 mm² threshold)
-- **Statistical Analysis:** GraphPad Prism (ANOVA + Dunnett's, Mann-Whitney U, t-tests)
+
+▸ **Microarray Analysis:** Rat Exon 1.0ST array (Affymetrix), RMA normalization, limma (moderated t-test), FDR correction (Storey & Tibshirani)  
+▸ **Differential Expression:** OPC differentiation timecourse (0h, 4h, 12h); identified Mapk pathway regulation  
+▸ **qRT-PCR Validation:** TaqMan assays, normalization to β2-microglobulin  
+▸ **Western Blot Quantification:** Densitometry (ROD) for p-Erk1/2, p-p38Mapk, p-Creb1  
+▸ **Statistical Analysis:** GraphPad Prism (ANOVA + Dunnett's, Mann-Whitney U, t-tests)
 
 **Key Findings:** PDE4 inhibition (rolipram) accelerates OPC differentiation and remyelination via cAMP-Mapk-Creb1 signaling
 
@@ -158,14 +160,14 @@ Preliminary data presentation of LUAD subtyping project (later published in *Cli
 
 ### Genomic Screens
 ✓ CRISPR screens (~160K sgRNAs, crisprVerse, TMM normalization)  
-✓ ORF overexpression screens (mentioned in CV, not shown in publications)  
+✓ ORF overexpression screens  
 ✓ Drug response screens (526 compounds, correlation modeling)
 
 ### Multi-Omics Integration
-✓ RNA-seq + WES + clinical data (TCGA, cBioPortal)  
+✓ RNA-seq + WGS/WES + clinical data (TCGA, cBioPortal)  
 ✓ RNA-seq + ChIP-seq (promoter binding analysis)  
-✓ RNA-seq + imaging (TMA, immunohistochemistry)  
-✓ RNA-seq + flow cytometry (immune profiling)
+✓ RNA-seq + flow cytometry (immune profiling)  
+✓ Spatial transcriptomics integration
 
 ### Machine Learning
 ✓ Unsupervised: Consensus NMF (subtype discovery)  
@@ -204,14 +206,14 @@ Preliminary data presentation of LUAD subtyping project (later published in *Cli
 I can apply these same methodologies to your projects:
 
 ::: {.services-quick-list}
-- 🧬 NGS analysis (RNA-seq, scRNA-seq, ChIP-seq, CRISPR screens)
-- 🤖 Machine learning classifier development
-- 📊 Multi-omics data integration
-- 🏥 Clinical trial biomarker discovery
-- 📈 Interactive visualization & reporting
+▸ 🧬 NGS analysis (RNA-seq, scRNA-seq, ChIP-seq, CRISPR screens)  
+▸ 🤖 Machine learning classifier development  
+▸ 📊 Multi-omics data integration  
+▸ 🏥 Clinical trial biomarker discovery  
+▸ 📈 Interactive visualization & reporting
 :::
 
 ::: {.cta-center}
-[📧 Contact Me](contact.qmd){.btn-primary-large}
-[💼 View Portfolio](portfolio.qmd){.btn-secondary-large}
+[📧&nbsp;Contact Me](contact.qmd){.btn-primary-large}
+[💼&nbsp;View Portfolio](portfolio.qmd){.btn-secondary-large}
 :::

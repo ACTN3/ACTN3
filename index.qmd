@@ -31,8 +31,8 @@ Publications
 :::
 
 ::: {.cta-buttons}
-[💼 Hire Me](contact.qmd){.btn-primary} 
-[📂 View Portfolio](portfolio.qmd){.btn-secondary}
+[💼&nbsp;Hire Me](contact.qmd){.btn-primary} 
+[📂&nbsp;View Portfolio](portfolio.qmd){.btn-secondary}
 :::
 
 :::
@@ -85,12 +85,15 @@ Publications
 ::: {.service-card}
 <div class="service-icon">🧬</div>
 ### NGS Analysis
-- RNA-seq (bulk & single-cell)
-- ChIP-seq, ATAC-seq
-- WES/WGS variant calling
-- TCR/BCR-seq repertoires
-- CRISPR screen analysis
-- other NGS data
+
+▸ RNA-seq (bulk & single-cell)  
+▸ ChIP-seq, ATAC-seq, CUT&RUN  
+▸ WGS/WES variant calling  
+▸ scTCR/scBCR-seq repertoires  
+▸ CRISPR/ORF screen analysis  
+▸ Spatial transcriptomics (10X Visium)  
+▸ Long-read sequencing (PacBio, Nanopore)  
+▸ Methylation arrays, WGBS
  
 **Format:** Quarto reports + GitHub repo
 :::
@@ -98,11 +101,12 @@ Publications
 ::: {.service-card}
 <div class="service-icon">⚙️</div>
 ### Pipeline Development
-- Snakemake/Nextflow workflows
-- Docker containerization
-- HPC optimization
-- CI/CD integration
-- Custom R packages
+
+▸ Snakemake/Nextflow workflows  
+▸ Docker containerization  
+▸ HPC optimization  
+▸ CI/CD integration  
+▸ Custom R packages
   
 **Format:** Reproducible code + documentation
 :::
@@ -110,11 +114,12 @@ Publications
 ::: {.service-card}
 <div class="service-icon">🤖</div>
 ### AI-Powered Analysis
-- ML-ready feature extraction
-- Predictive modeling (drug response)
-- Multi-omics integration
-- LLM-assisted code generation
-- Automated QC systems
+
+▸ ML-ready feature extraction  
+▸ Predictive modeling (drug response)  
+▸ Multi-omics integration  
+▸ LLM-assisted code generation  
+▸ Automated QC systems
   
 **Format:** Trained models + deployment scripts
 :::
@@ -122,11 +127,12 @@ Publications
 ::: {.service-card}
 <div class="service-icon">📈</div>
 ### Interactive Dashboards
-- Shiny apps for data exploration
-- Real-time QC monitoring
-- Client-facing visualizations
-- GitHub Pages portfolios
-- Quarto knowledge bases
+
+▸ Shiny apps for data exploration  
+▸ Real-time QC monitoring  
+▸ Client-facing visualizations  
+▸ GitHub Pages portfolios  
+▸ Quarto knowledge bases
 
 **Format:** Hosted app + source code
 :::
@@ -134,11 +140,12 @@ Publications
 ::: {.service-card}
 <div class="service-icon">🔬</div>
 ### Multi-Omics Integration
-- Transcriptomics + genomics
-- Spatial transcriptomics (10X Visium)
-- TCGA/GEO public data mining
-- Cross-species comparisons
-- Pathway enrichment analysis
+
+▸ Transcriptomics + genomics + epigenomics  
+▸ Spatial transcriptomics analysis  
+▸ TCGA/GEO public data mining  
+▸ Cross-species comparisons  
+▸ Pathway enrichment analysis
   
 **Format:** Integrated dataset + insights report
 :::
@@ -146,18 +153,19 @@ Publications
 ::: {.service-card}
 <div class="service-icon">🏥</div>
 ### Clinical Trial Support
-- Biomarker discovery & validation
-- Patient stratification algorithms
-- Survival analysis (Cox models)
-- Companion diagnostic development
-- Regulatory-compliant documentation
+
+▸ Biomarker discovery & validation  
+▸ Patient stratification algorithms  
+▸ Survival analysis (Cox models)  
+▸ Companion diagnostic development  
+▸ Regulatory-compliant documentation
   
 **Format:** Clinical-grade reports + code
 :::
 :::
 
 ::: {.cta-center}
-[📧 Discuss Your Project](contact.qmd){.btn-primary-large}
+[📧&nbsp;Discuss Your Project](contact.qmd){.btn-primary-large}
 :::
 :::
 
@@ -210,13 +218,13 @@ Publications
 ![cBioPortal](https://img.shields.io/badge/cBioPortal-orange?style=flat-square)
 
 **Public:** TCGA, GEO, EGA, SRA, cBioPortal  
-**Clinical:** OAK/POPLAR trials, FoundationOne   
-**Sequencing:** Illumina (HiSeq, NovaSeq), 10X Genomics
+**Clinical:** OAK/POPLAR trials, FoundationOne  
+**Platforms:** Illumina (HiSeq, NovaSeq), 10X Genomics, PacBio
 :::
 :::
 :::
 
-<!-- Proof Section - IMPROVED -->
+<!-- Proof Section -->
 ::: {.section-proof}
 ## 📚 Research Impact {.section-title}
 
@@ -242,24 +250,24 @@ sgRNAs in CRISPR Screens
 **🧬 Transcription factor Zfx regulates tumor immune evasion**  
 *iScience (2025)*  
 **Role:** CRISPR screen analysis (160K sgRNAs), ChIP-seq, TCGA survival models  
-[📄 Read Paper](https://doi.org/10.1016/j.isci.2025.113842){.pub-link}
+[📄&nbsp;Read Paper](https://doi.org/10.1016/j.isci.2025.113842){.pub-link}
 :::
 
 ::: {.pub-card}
 **🧬 Transcriptional subtypes in lung adenocarcinoma**  
 *Clinical Cancer Research (2021)*  
 **Role:** NMF subtype discovery, 113-gene PAM classifier (87-91% accuracy)  
-[📄 Read Paper](https://doi.org/10.1158/1078-0432.CCR-20-1835){.pub-link} | [💻 Code](https://github.com/anneleendaemen/LUAD.subtypes){.pub-link}
+[📄&nbsp;Read Paper](https://doi.org/10.1158/1078-0432.CCR-20-1835){.pub-link} | [💻&nbsp;Code](https://github.com/anneleendaemen/LUAD.subtypes){.pub-link}
 :::
 
 ::: {.pub-card}
 **🧬 ERBB signalling in KRAS-driven lung cancer**  
 *bioRxiv (2023)*  
 **Role:** scRNA-seq analysis (10X, 22 clusters), PANTHER enrichment  
-[📄 Read Paper](https://doi.org/10.1101/2023.07.24.550274){.pub-link}
+[📄&nbsp;Read Paper](https://doi.org/10.1101/2023.07.24.550274){.pub-link}
 :::
 
-[📖 View All Publications](publications.qmd){.btn-secondary-large}
+[📖&nbsp;View All Publications](publications.qmd){.btn-secondary-large}
 :::
 :::
 
@@ -270,9 +278,9 @@ sgRNAs in CRISPR Screens
 **Let's discuss how I can accelerate your discoveries**
 
 ::: {.cta-buttons-footer}
-[📧 Email Me](mailto:szymon.myrta@gmail.com){.btn-primary-large}
-[💼 LinkedIn](https://linkedin.com/in/myrta/){.btn-secondary-large}
-[🏢 ACTN3 Bioinformatics](https://actn3.pl){.btn-secondary-large}
+[📧&nbsp;Email Me](mailto:szymon.myrta@gmail.com){.btn-primary-large}
+[💼&nbsp;LinkedIn](https://linkedin.com/in/myrta/){.btn-secondary-large}
+[🏢&nbsp;ACTN3 Bioinformatics](https://actn3.pl){.btn-secondary-large}
 :::
 :::
 

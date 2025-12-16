@@ -29,19 +29,19 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 
 **Key Achievements:**
 
--   📚 Co-authored **6 publications** in top-tier journals (iScience, Clinical Cancer Research, Cancer Immunology Research, EMBO Molecular Medicine)
--   🧬 Analyzed >**800 patient samples** across multiple clinical trials (OAK, POPLAR, gp28363)
--   🔬 Processed **~160,000 sgRNAs** in genome-wide CRISPR screens
--   📊 Developed **113-gene classifier** with 87-91% cross-cohort validation
--   🤖 Built **ML-ready datasets** from scRNA-seq CRISPR perturbation screens
+▸ Co-authored **6 publications** in top-tier journals (iScience, Clinical Cancer Research, Cancer Immunology Research, EMBO Molecular Medicine)  
+▸ Analyzed >**800 patient samples** across multiple clinical trials (OAK, POPLAR, gp28363)  
+▸ Processed **~160,000 sgRNAs** in genome-wide CRISPR screens  
+▸ Developed **113-gene classifier** with 87-91% cross-cohort validation  
+▸ Built **ML-ready datasets** from scRNA-seq CRISPR perturbation screens
 
 **Technical Focus:**
 
--   NGS analysis (RNA-seq, scRNA-seq, ChIP-seq, TCR/BCR-seq, WES/WGS)
--   CRISPR/ORF screen analysis
--   Machine learning & predictive modeling
--   Multi-omics data integration (TCGA, GEO, clinical trials)
--   Pipeline development (Snakemake, Docker, HPC)
+▸ NGS analysis (RNA-seq, scRNA-seq, ChIP-seq, scTCR/scBCR-seq, WGS/WES)  
+▸ CRISPR/ORF screen analysis  
+▸ Machine learning & predictive modeling  
+▸ Multi-omics data integration (TCGA, GEO, clinical trials)  
+▸ Pipeline development (Snakemake, Docker, HPC)
 
 ------------------------------------------------------------------------
 
@@ -49,9 +49,9 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 
 *September 2015 - April 2017 | Kraków, Poland*
 
--   Designed & maintained LIMS software (StarLIMS, JScript.NET, T-SQL)
--   Developed R package supporting drug discovery workflows
--   Integrated bioinformatics tools with laboratory information systems
+▸ Designed & maintained LIMS software (StarLIMS, JScript.NET, T-SQL)  
+▸ Developed R package supporting drug discovery workflows  
+▸ Integrated bioinformatics tools with laboratory information systems
 
 ------------------------------------------------------------------------
 
@@ -59,9 +59,9 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 
 *August 2014 - August 2015 | Kraków, Poland*
 
--   Led StarLIMS implementation in collaboration with Abbott
--   Coordinated QA for ISO compliance during system deployment
--   Bridge between IT, lab operations, and quality assurance
+▸ Led StarLIMS implementation in collaboration with Abbott  
+▸ Coordinated QA for ISO compliance during system deployment  
+▸ Bridge between IT, lab operations, and quality assurance
 
 ------------------------------------------------------------------------
 
@@ -72,102 +72,81 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 **Supervisor:** Dr. Mark Kotter  
 **Methods:** R-based microarray analysis in stem cell biology
 
----
-
-```{=html}
-<!-- ---
-
-## 🎓 Education {.section-title}
-
-### 🧬 **MSc Molecular Medicine** | Cranfield University, UK (2012-2013)
-**Thesis:** The role of long non-coding RNAs in neural cell specification  
-**Methods:** Microarray data analysis using R/Bioconductor
-
-### 💻 **MSc Biotechnology (spec.: Bioinformatics)** | Silesian University of Technology, Poland (2012-2013)
-**Grade:** 5.0/5.0 (Very Good) | **Average:** 4.63/5.0
-
-### 🧪 **BSc Biotechnology (spec.: Bioinformatics)** | Silesian University of Technology, Poland (2007-2012)
-
-### 💼 **Postgraduate: Business in Biotechnology** | Jagiellonian University, Poland (2014-2015)
-
----
-
-## 🏆 Awards & Recognition {.section-title}
-
-::: {.awards-grid}
-
-::: {.award-item}
-**🎓 Rector's Scholarships**  
-2011, 2012, 2013  
-*Best students award*
-:::
-
-::: {.award-item}
-**⚡ Sports Scholarships**  
-2008, 2009, 2010  
-*Athletics performance*
-:::
-
-::: -->
-```
-
 ------------------------------------------------------------------------
 
 ## 🛠️ Technical Skills {.section-title}
 
 ### **Core Bioinformatics**
 
-``` r
-✓ RNA-seq: limma-voom, edgeR, DESeq2, HTSeqGenie, GSNAP
-✓ scRNA-seq: Seurat, Scanpy, UMAP, cell type annotation
-✓ CRISPR screens: crisprVerse, MAGeCK, TMM normalization
-✓ ChIP-seq: BWA, peak calling, motif enrichment
-✓ Variant calling: GATK, VCF processing, COSMIC signatures
-✓ Pathway analysis: fgsea, MSigDB, IPA, Metacore GeneGO
-```
+**NGS Technologies:**  
+✓ RNA-seq: limma-voom, edgeR, DESeq2, HTSeqGenie, GSNAP  
+✓ scRNA-seq: Seurat, Scanpy, UMAP, cell type annotation  
+✓ CRISPR screens: crisprVerse, MAGeCK, TMM normalization  
+✓ ChIP-seq, ATAC-seq, CUT&RUN: peak calling, motif enrichment  
+✓ scTCR/scBCR-seq: immune repertoire profiling  
+✓ WGS/WES: GATK, variant calling, COSMIC signatures  
+✓ Spatial transcriptomics: 10X Visium analysis  
+✓ Long-read sequencing: PacBio, Nanopore  
+✓ Methylation: WGBS, Infinium arrays
+
+**Analysis Methods:**  
+✓ Pathway analysis: fgsea, MSigDB, IPA, Metacore GeneGO  
+✓ Differential expression: limma, edgeR, DESeq2  
+✓ Functional genomics: CRISPR/ORF screen hit calling
 
 ### **Machine Learning & Statistics**
 
-``` r
-✓ Unsupervised: Consensus NMF, hierarchical clustering, PCA
-✓ Supervised: PAM, caret, feature engineering, CV design
-✓ Survival analysis: Cox models, Kaplan-Meier, survfit
+**Unsupervised:**  
+✓ Consensus NMF, hierarchical clustering, PCA/UMAP
+
+**Supervised:**  
+✓ PAM, caret, feature engineering, cross-validation design
+
+**Clinical:**  
+✓ Survival analysis: Cox models, Kaplan-Meier, survfit  
 ✓ Statistical tests: ANOVA, t-tests, Mann-Whitney U, FDR correction
-```
 
 ### **Engineering & Automation**
 
-``` bash
-✓ Pipelines: Snakemake, Nextflow, Bash scripting
-✓ Reproducibility: RMarkdown, Quarto, literate programming
-✓ Version control: Git, GitHub/GitLab, CI/CD
-✓ Compute: HPC clusters, Docker, parallel processing
+**Workflow Development:**  
+✓ Snakemake, Nextflow, Bash scripting
+
+**Reproducibility:**  
+✓ RMarkdown, Quarto, literate programming
+
+**Infrastructure:**  
+✓ Version control: Git, GitHub/GitLab, CI/CD  
+✓ Compute: HPC clusters, Docker, parallel processing  
 ✓ Data wrangling: dplyr, data.table, FASTQ/BAM/VCF parsing
-```
 
 ### **Visualization & Reporting**
 
-``` r
-✓ Static: ggplot2, ComplexHeatmap, volcano plots, survival curves
-✓ Interactive: Shiny apps, plotly, custom dashboards
-✓ Reports: Quarto websites, dynamic RMarkdown, GitHub Pages
-```
+**Static Graphics:**  
+✓ ggplot2, ComplexHeatmap, volcano plots, survival curves
+
+**Interactive:**  
+✓ Shiny apps, plotly, custom dashboards
+
+**Documentation:**  
+✓ Quarto websites, dynamic RMarkdown, GitHub Pages
 
 ### **Data Sources & Integration**
 
-``` bash
-✓ Public: TCGA, GEO, EGA, SRA, cBioPortal, FoundationOne
-✓ Clinical: OAK/POPLAR trials, patient stratification
-✓ Imaging: HALO, QuPath, ImageJ quantification
-✓ Platforms: Illumina (HiSeq/NovaSeq), 10X Genomics, Affymetrix
-```
+**Public Databases:**  
+✓ TCGA, GEO, EGA, SRA, cBioPortal, FoundationOne
+
+**Clinical Data:**  
+✓ OAK/POPLAR trials, patient stratification
+
+**Platforms:**  
+✓ Illumina (HiSeq/NovaSeq), 10X Genomics, PacBio, Affymetrix
 
 ------------------------------------------------------------------------
 
 ## 🌍 Languages {.section-title}
 
--   🇬🇧 **English:** Fluent - Scientific communication, publications, international teams
--   🇵🇱 **Polish:** Native
+▸ 🇬🇧 **English:** Fluent - Scientific communication, publications, international teams  
+▸ 🇵🇱 **Polish:** Native
 
 ------------------------------------------------------------------------
 
@@ -176,18 +155,19 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 ::: {.motivation-section}
 ### 🚀 **Professional Interests (2025 & Beyond)**
 
--   🤖 **AI in Bioinformatics:** LLM-assisted analysis, automated QC, AI-powered variant calling
--   🧬 **Multi-Modal Omics:** Spatial transcriptomics, single-cell + proteomics + imaging integration
--   ⚙️ **Workflow Engineering:** Positron IDE + Quarto, Nextflow DSL2, cloud-native pipelines
--   🎯 **CRISPR & Functional Genomics:** Perturb-seq, base/prime editor screens, transcriptome engineering
--   🏥 **Precision Medicine:** Real-time clinical decision support, pharmacogenomics, liquid biopsy
+▸ 🤖 **AI in Bioinformatics:** LLM-assisted analysis, automated QC, AI-powered variant calling  
+▸ 🧬 **Multi-Modal Omics:** Spatial transcriptomics, single-cell + proteomics + epigenomics integration  
+▸ 🧪 **Non-coding RNA:** lncRNA, miRNA, circRNA in cancer & development  
+▸ ⚙️ **Workflow Engineering:** Positron IDE + Quarto, Nextflow DSL2, cloud-native pipelines  
+▸ 🎯 **CRISPR & Functional Genomics:** Perturb-seq, base/prime editor screens, transcriptome engineering  
+▸ 🏥 **Precision Medicine:** Real-time clinical decision support, pharmacogenomics, liquid biopsy
 
 ### 🏃 **Personal Passions**
 
--   📚 Continuous learning & skill development
--   🏃 Licensed athletics referee
--   💪 Healthy lifestyle & professional athletics training
--   🧘 Work-life balance advocacy
+▸ 📚 Continuous learning & skill development  
+▸ 🏃 Licensed athletics referee  
+▸ 💪 Healthy lifestyle & professional athletics training  
+▸ 🧘 Work-life balance advocacy
 :::
 
 ------------------------------------------------------------------------
@@ -201,5 +181,5 @@ Whether you're a **biotech startup**, **academic lab**, **pharma company**, or *
 
 **Connect with me:**
 
-[📧 Email](mailto:szymon.myrta@gmail.com){.btn-primary-large} [💼 LinkedIn](https://linkedin.com/in/myrta/){.btn-secondary-large} [📋 ORCID](https://orcid.org/0000-0003-1714-6105){.btn-secondary}
+[📧&nbsp;Email](mailto:szymon.myrta@gmail.com){.btn-primary-large} [💼&nbsp;LinkedIn](https://linkedin.com/in/myrta/){.btn-secondary-large} [📋&nbsp;ORCID](https://orcid.org/0000-0003-1714-6105){.btn-secondary}
 :::
