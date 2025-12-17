@@ -124,7 +124,7 @@ ACTN3 Bioinformatics delivers genomic analysis services to biotech, pharma, and 
 
 ```bash
 # R Package Development
-✅ Package structure \(devtools, usethis, roxygen2)
+✅ Package structure (devtools, usethis, roxygen2)
 ✅ Documentation (pkgdown websites, vignettes)
 ✅ Testing (testthat, unit tests, CI/CD)
 ✅ CRAN/Bioconductor submission standards
@@ -290,7 +290,6 @@ ACTN3 Bioinformatics delivers genomic analysis services to biotech, pharma, and 
   - LLM-assisted code generation and debugging
   - AI-powered variant annotation
   - Automated literature mining for pathway enrichment
-  # - Production deployment of ML models (Plumber APIs, Docker)
 
 🧬 Multi-Modal Omics:
   - Spatial transcriptomics (10X Visium, Xenium)

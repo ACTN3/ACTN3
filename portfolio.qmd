@@ -165,7 +165,8 @@ Experience developing R packages for internal workflows at Roche/Avenga, includi
 
 Open-source templates for common NGS workflows (RNA-seq, ChIP-seq, CRISPR screens) with Docker integration.
 
-**Status:** In development for ACTN3 Bioinformatics  
+**Status:** In development for ACTN3 Bioinformatics
+
 [🔗&nbsp;Coming Soon](https://github.com/ACTN3Bioinformatics){.btn-secondary}
 :::
 

@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - "assets/images/og-preview.jpg"
+    - "assets/icons/ACTN3-logo.png"
+    - "assets/images/profile.jpg"
 
 website:
   title: "Szymon Myrta | Bioinformatics Expert"
