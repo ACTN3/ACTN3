@@ -50,7 +50,7 @@ Publications
 ::: {.problem-card}
 ### 🧬 Raw NGS Data Chaos
 **Problem:** You have TBs of FASTQ files but no pipeline  
-**Solution:** End-to-end analysis from QC → DE → figures  
+**Solution:** End-to-end analysis from QC to DE to figures  
 **Tools:** Snakemake, Seurat, edgeR, HTSeqGenie
 :::
 
@@ -99,6 +99,18 @@ Publications
 :::
 
 ::: {.service-card}
+<div class="service-icon">📦</div>
+### R Package Development
+
+▸ Custom packages    
+▸ Package documentation (pkgdown)  
+▸ Unit testing (testthat)  
+▸ Vignettes and tutorials
+  
+**Format:** Documented package + GitHub repo
+:::
+
+::: {.service-card}
 <div class="service-icon">⚙️</div>
 ### Pipeline Development
 
@@ -106,7 +118,7 @@ Publications
 ▸ Docker containerization  
 ▸ HPC optimization  
 ▸ CI/CD integration  
-▸ Custom R packages
+▸ Automated testing
   
 **Format:** Reproducible code + documentation
 :::
@@ -115,8 +127,7 @@ Publications
 <div class="service-icon">🤖</div>
 ### AI-Powered Analysis
 
-▸ ML-ready feature extraction  
-▸ Predictive modeling (drug response)  
+▸ ML-ready feature extraction   
 ▸ Multi-omics integration  
 ▸ LLM-assisted code generation  
 ▸ Automated QC systems
@@ -148,19 +159,6 @@ Publications
 ▸ Pathway enrichment analysis
   
 **Format:** Integrated dataset + insights report
-:::
-
-::: {.service-card}
-<div class="service-icon">🏥</div>
-### Clinical Trial Support
-
-▸ Biomarker discovery & validation  
-▸ Patient stratification algorithms  
-▸ Survival analysis (Cox models)  
-▸ Companion diagnostic development  
-▸ Regulatory-compliant documentation
-  
-**Format:** Clinical-grade reports + code
 :::
 :::
 
@@ -195,7 +193,8 @@ Publications
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 **Pipelines:** Snakemake, Nextflow, Bash scripting  
-**Reproducibility:** Quarto, Shiny, RMarkdown, literate programming  
+**R Packages:** devtools, usethis, roxygen2, testthat  
+**Reproducibility:** Quarto, Shiny, RMarkdown  
 **Compute:** HPC clusters, parallel processing, CI/CD  
 **Data:** FASTQ/BAM/VCF parsing, dplyr, data.table
 :::

@@ -150,11 +150,11 @@ Custom Shiny applications for client-facing data exploration, including:
 ::: {.contribution-item}
 ### 📦 R Package Development
 
-**Fluidigm Data Handler**
+**Custom Packages**
 
-Custom R package for Fluidigm qPCR data processing and analysis developed during Roche/Avenga tenure.
+Experience developing R packages for internal workflows at Roche/Avenga, including Fluidigm qPCR data handler and other analysis tools.
 
-**Features:** Automated QC, batch correction, visualization  
+**Skills:** devtools, roxygen2, testthat, pkgdown  
 **Status:** Internal use (proprietary)
 :::
 
@@ -187,6 +187,7 @@ Quarto-based educational resources for pharmaceutical bioinformatics, including 
 I'm available for:
 
 ▸ 🧬 **Contract NGS Analysis**  
+▸ 📦 **R Package Development** (custom Bioconductor packages, documentation, testing)  
 ▸ ⚙️ **Pipeline Development** (custom Snakemake/Nextflow workflows)  
 ▸ 🤖 **AI Integration** (ML-ready dataset preparation, predictive modeling)  
 ▸ 📊 **Shiny Dashboard Creation** (interactive data exploration tools)  

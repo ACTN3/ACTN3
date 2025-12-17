@@ -41,7 +41,8 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 ▸ CRISPR/ORF screen analysis  
 ▸ Machine learning & predictive modeling  
 ▸ Multi-omics data integration (TCGA, GEO, clinical trials)  
-▸ Pipeline development (Snakemake, Docker, HPC)
+▸ Pipeline development (Snakemake, Docker, HPC)  
+▸ R package development for internal workflows
 
 ------------------------------------------------------------------------
 
@@ -106,9 +107,15 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 ✓ Survival analysis: Cox models, Kaplan-Meier, survfit  
 ✓ Statistical tests: ANOVA, t-tests, Mann-Whitney U, FDR correction
 
-### **Engineering & Automation**
+### **Software Development**
 
-**Workflow Development:**  
+**R Package Development:**  
+✓ Package structure: devtools, usethis, roxygen2  
+✓ Documentation: pkgdown websites, vignettes  
+✓ Testing: testthat, unit tests, CI/CD  
+✓ CRAN/Bioconductor submission standards  
+
+**Workflow Engineering:**  
 ✓ Snakemake, Nextflow, Bash scripting
 
 **Reproducibility:**  
@@ -119,7 +126,7 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 ✓ Compute: HPC clusters, Docker, parallel processing  
 ✓ Data wrangling: dplyr, data.table, FASTQ/BAM/VCF parsing
 
-### **Visualization & Reporting**
+### **Visualization & Deployment**
 
 **Static Graphics:**  
 ✓ ggplot2, ComplexHeatmap, volcano plots, survival curves
@@ -157,10 +164,11 @@ Leading bioinformatics analysis for oncology and immunology research projects at
 
 ▸ 🤖 **AI in Bioinformatics:** LLM-assisted analysis, automated QC, AI-powered variant calling  
 ▸ 🧬 **Multi-Modal Omics:** Spatial transcriptomics, single-cell + proteomics + epigenomics integration  
-▸ 🧪 **Non-coding RNA:** lncRNA, miRNA, circRNA in cancer & development  
+▸ 🧪 **Non-coding RNA:** lncRNA, miRNA, circRNA in cancer & development; integration and correlation analysis between ncRNA and mRNA; identifying ncRNA regulators of protein-coding genes; regulatory network reconstruction  
+▸ 📦 **Software Development:** R package development (Bioconductor standards)  
 ▸ ⚙️ **Workflow Engineering:** Positron IDE + Quarto, Nextflow DSL2, cloud-native pipelines  
-▸ 🎯 **CRISPR & Functional Genomics:** Perturb-seq, base/prime editor screens, transcriptome engineering  
-▸ 🏥 **Precision Medicine:** Real-time clinical decision support, pharmacogenomics, liquid biopsy
+▸ 🎯 **CRISPR & Functional Genomics:** Perturb-seq, base/prime editor screens, screen validation workflows  
+▸ 🏥 **Precision Medicine:** Real-time clinical decision support, pharmacogenomics, liquid biopsy, patient-specific modeling
 
 ### 🏃 **Personal Passions**
 

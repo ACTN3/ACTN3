@@ -28,7 +28,7 @@ title: "Publications"
 
 ---
 
-### 🧬 **T cell–dependent bispecific therapy enhances innate immune activation and antibody-mediated killing**
+### 🧬 **T cell-dependent bispecific therapy enhances innate immune activation and antibody-mediated killing**
 
 **Journal:** *Cancer Immunology Research* (2024) | **DOI:** [10.1158/2326-6066.CIR-23-0800](https://doi.org/10.1158/2326-6066.CIR-23-0800)
 
@@ -156,7 +156,7 @@ Preliminary data presentation of LUAD subtyping project (later published in *Cli
 ### RNA-seq Analysis
 ✓ Bulk RNA-seq (HTSeqGenie, GSNAP, edgeR, DESeq2, limma-voom)  
 ✓ Single-cell RNA-seq (10X Genomics, Seurat-equivalent, UMAP, clustering)  
-✓ Smart-Seq V4 ultra-low input (2ng → 150pg cDNA → Nextera XT)
+✓ Smart-Seq V4 ultra-low input (2ng to 150pg cDNA to Nextera XT)
 
 ### Genomic Screens
 ✓ CRISPR screens (~160K sgRNAs, crisprVerse, TMM normalization)  

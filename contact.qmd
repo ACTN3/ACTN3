@@ -63,6 +63,14 @@ Best for: Publication history, citation metrics
 
 ---
 
+### 📦 **R Package Development**
+**Duration:** 4-12 weeks  
+**Deliverables:** Custom Bioconductor packages, documentation (pkgdown), unit tests, CRAN/Bioconductor submission
+
+[💻&nbsp;See Portfolio Examples](portfolio.qmd)
+
+---
+
 ### ⚙️ **Pipeline Development**
 **Duration:** 4-12 weeks  
 **Deliverables:** Snakemake/Nextflow workflows, Docker containers, documentation
@@ -89,7 +97,7 @@ Best for: Publication history, citation metrics
 
 ### 🎓 **Training & Workshops**
 **Duration:** 1-3 days  
-**Topics:** R/Bioconductor, reproducible workflows, NGS analysis best practices
+**Topics:** R/Bioconductor, package development, reproducible workflows, NGS analysis best practices
 
 *Custom workshops available upon request*
 
@@ -138,13 +146,16 @@ Absolutely. I have 9+ years experience with pharma/biotech confidential datasets
 ### Do you provide publication support?
 Yes! I can write Methods sections, create supplementary analyses, and prepare publication-quality figures.
 
+### Can you develop custom R packages?
+Yes, I develop custom Bioconductor packages with documentation, testing, and CRAN/Bioconductor submission standards.
+
 ### Can you train my team?
-Yes, I offer custom workshops on R/Bioconductor, reproducible workflows, and NGS best practices.
+Yes, I offer custom workshops on R/Bioconductor, package development, reproducible workflows, and NGS best practices.
 
 ### What is your typical project timeline?
 ▸ **Small projects** (RNA-seq analysis): 2-4 weeks  
-▸ **Medium projects** (scRNA-seq, pipelines): 4-8 weeks  
-▸ **Large projects** (multi-omics, ML): 8-16 weeks
+▸ **Medium projects** (scRNA-seq, pipelines, R packages): 4-8 weeks  
+▸ **Large projects** (multi-omics, ML, AI systems): 8-16 weeks
 
 ### How do you ensure reproducibility?
 All analyses include version-controlled code (Git), containerization (Docker), detailed documentation (Quarto/RMarkdown), and comprehensive reports with session info.
