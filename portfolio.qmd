@@ -6,22 +6,26 @@ title: "Portfolio"
 
 ::: {.portfolio-grid}
 ::: {.project-card .featured}
-### 🧪 VCC 2025 - scRNA-seq CRISPR Pipeline
+### 🧪 scRNA-seq CRISPR Pipeline
 
-**AI-Ready Perturbation Datasets**
+**Reproducible Python Pipeline for ML-Ready Perturbation Datasets**
 
 ![Snakemake Workflow](assets/images/vcc-pipeline.svg){.project-image}
 
-Reproducible Snakemake pipeline producing harmonized, balanced, ML-ready perturbation datasets from single-cell CRISPR screens.
+Production-grade Snakemake pipeline that transforms raw Perturb-seq data into harmonized, balanced, ML-ready datasets for AI-powered perturbation prediction.
 
 **Key Features:**
 
-▸ Automated QC + normalization (Seurat, sctransform)  
-▸ Balanced control/perturbation groups  
-▸ Docker containerization for reproducibility  
-▸ Integrated Quarto reports
+▸ Automated QC + normalization (Scanpy)  
+▸ Smart class balancing (scikit-learn)  
+▸ Batch integration (Harmony/BBKNN)  
+▸ Leave-genes-out cross-validation  
+▸ Interactive Jupyter notebooks  
+▸ Comprehensive Quarto documentation
 
-**Tech Stack:** Snakemake, R/Seurat, Docker, Quarto
+**Tech Stack:** Python 3.10, Snakemake, Scanpy, scikit-learn, Harmony, Quarto, GitHub Actions
+
+**Performance:** Processes 10k cells (~500MB) in ~15 minutes on laptop (AMD Ryzen 5 7535HS, 16GB RAM)
 
 [🔗&nbsp;GitHub Repository](https://github.com/ACTN3Bioinformatics/VCC-project){.btn-primary} [📖&nbsp;Documentation](https://actn3bioinformatics.github.io/VCC-project/){.btn-secondary}
 :::
@@ -163,7 +167,7 @@ Experience developing R packages for internal workflows at Roche/Avenga, includi
 
 **Snakemake/Nextflow Starters**
 
-Open-source templates for common NGS workflows (RNA-seq, ChIP-seq, CRISPR screens) with Docker integration.
+Open-source templates for common NGS workflows (RNA-seq, ChIP-seq, CRISPR screens) with reproducible environments.
 
 **Status:** In development for ACTN3 Bioinformatics
 
@@ -189,7 +193,7 @@ I'm available for:
 
 ▸ 🧬 **Contract NGS Analysis**  
 ▸ 📦 **R Package Development** (custom Bioconductor packages, documentation, testing)  
-▸ ⚙️ **Pipeline Development** (custom Snakemake/Nextflow workflows)  
+▸ ⚙️ **Pipeline Development** (Snakemake/Nextflow workflows, Python/R)  
 ▸ 🤖 **AI Integration** (ML-ready dataset preparation, predictive modeling)  
 ▸ 📊 **Shiny Dashboard Creation** (interactive data exploration tools)  
 ▸ 📖 **Publication Support** (methods sections, supplementary analyses, figures)

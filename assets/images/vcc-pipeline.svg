@@ -24,7 +24,7 @@
   
   <!-- Title -->
   <text x="400" y="40" text-anchor="middle" font-size="28" font-weight="700" fill="url(#greenBlue)" font-family="'Space Grotesk', sans-serif">
-    VCC 2025 - scRNA-seq CRISPR Pipeline
+    scRNA-seq CRISPR Pipeline
   </text>
   
   <!-- Snakemake Logo Area -->
@@ -34,7 +34,7 @@
       Snakemake Workflow
     </text>
     <text x="0" y="25" text-anchor="middle" font-size="14" fill="#8b949e" font-family="'Inter', sans-serif">
-      CI/CD | Docker | Reproducible
+      CI/CD | Python | Reproducible
     </text>
   </g>
   
@@ -59,7 +59,7 @@
     <g transform="translate(180, 0)">
       <rect x="0" y="0" width="120" height="80" rx="8" fill="#21262d" stroke="#a6ce39" stroke-width="2" filter="url(#glow)"/>
       <text x="60" y="35" text-anchor="middle" font-size="14" font-weight="600" fill="#a6ce39" font-family="'Inter', sans-serif">QC Filter</text>
-      <text x="60" y="55" text-anchor="middle" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Seurat</text>
+      <text x="60" y="55" text-anchor="middle" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Scanpy</text>
     </g>
     
     <!-- Arrow -->
@@ -69,7 +69,7 @@
     <g transform="translate(360, 0)">
       <rect x="0" y="0" width="120" height="80" rx="8" fill="#21262d" stroke="#bc8cff" stroke-width="2" filter="url(#glow)"/>
       <text x="60" y="35" text-anchor="middle" font-size="14" font-weight="600" fill="#bc8cff" font-family="'Inter', sans-serif">Normalize</text>
-      <text x="60" y="55" text-anchor="middle" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">sctransform</text>
+      <text x="60" y="55" text-anchor="middle" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">scikit-learn</text>
     </g>
     
     <!-- Arrow -->
@@ -94,12 +94,12 @@
     
     <g transform="translate(250, 20)">
       <circle cx="0" cy="0" r="3" fill="#58a6ff"/>
-      <text x="15" y="4" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Docker containerization</text>
+      <text x="15" y="4" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Harmony/BBKNN integration</text>
     </g>
     
     <g transform="translate(500, 20)">
       <circle cx="0" cy="0" r="3" fill="#bc8cff"/>
-      <text x="15" y="4" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Integrated Quarto reports</text>
+      <text x="15" y="4" font-size="12" fill="#8b949e" font-family="'Inter', sans-serif">Interactive Jupyter notebooks</text>
     </g>
   </g>
   
