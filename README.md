@@ -150,7 +150,7 @@ ACTN3 Bioinformatics delivers genomic analysis services to biotech, pharma, and 
 
 ## 📂 Featured Open-Source Projects
 
-### 🧬 population-wgs-architecture
+### 🧬 [Population-WGS Bioinformatics Architecture](https://github.com/ACTN3Bioinformatics/population-wgs-architecture)
 
 **A reference architecture template for nationwide population whole-genome sequencing programs**
 
